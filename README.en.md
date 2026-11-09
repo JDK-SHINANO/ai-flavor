@@ -4,7 +4,7 @@
 
 A rubric for Chinese "AI flavor": the texture that makes a text read as machine-written. It splits that texture into metrics you can count, entries you can look up, and diffs you can re-run.
 
-233 lexicon entries. Nine register tiers, five rewrite levels, three faults on three axes.
+233 lexicon entries. Nine register tiers, five rewrite levels, three defects and three fixes.
 
 ## What it is
 
@@ -14,27 +14,27 @@ Three problems turned up that a checklist can't handle.
 
 The first is that deletion doesn't finish the job. Checklist editing only subtracts: cross out the suspect word, drop the connective that isn't earning its place. You can cut the vocabulary to zero and end up with sentences more even than before. The blind test in upstream [issue #229](https://github.com/blader/humanizer/issues/229) is on record. AI vocabulary went 70→0 and typography 60→0, while "even rhythm" went 60→101 and "aphoristic ending" 38→61. What's left has no defects and no person in it.
 
-The second: the same word can be a fault in one place and normal in another. Nominalization is ordinary in an academic paper and a defect in an essay. 总之 closes a government document and sours a personal one. A register-blind checklist can only take the most conservative reading, so it misfires everywhere.
+The second: the same word can be a defect in one place and normal in another. Nominalization is ordinary in an academic paper and a defect in an essay. 总之 closes a government document and sours a personal one. A register-blind checklist can only take the most conservative reading, so it misfires everywhere.
 
 The third is more practical. After the edit, there's no measure of whether it got better. You go by feel.
 
-The register tiers, the diff tool and the three faults are aimed at those three problems, one each.
+The register tiers, the comparison tool and the three defects are aimed at those three problems, one each.
 
-### The three faults and their axes
+### Three defects, three fixes
 
-| Fault | What it is | Axis | Test |
+| Defect | What it is | Fix | Test |
 |---|---|---|---|
-| A. Hard-mapped hypotaxis | An English grammatical obligation dropped into a slot Chinese leaves optional | Correct | Departs from the Chinese default and buys no precision |
-| B. Register collapse | One register for the whole text, wrong for the target genre | Locate | Departs from the target tier's default, either high or low |
-| C. Predictable structure | The reader can guess the shape of the next sentence | Break | Low variance in sentence length, equal-length sections, predictable placement of punchlines |
+| A. Hard-mapped hypotaxis | An English grammatical obligation dropped into a slot Chinese leaves optional | Correct the form | Departs from the Chinese default and buys no precision |
+| B. Register collapse | One register for the whole text, wrong for the target genre | Set the register | Departs from the target tier's default, either high or low |
+| C. Predictable structure | The reader can guess the shape of the next sentence | Break the rhythm | Low variance in sentence length, equal-length sections, predictable placement of punchlines |
 
-The three faults are orthogonal, each with its own axis. Treat them together and some will be missed.
+The three defects are independent, each with its own fix. Treat them together and some will be missed.
 
-Fault A has one precondition: whether the Europeanized form pays for itself. With a source text behind it (translation), it may be the price of fidelity, so the tolerance goes up one notch. When you are writing on your own and the form still comes out Europeanized, that is path inertia and gets treated as a fault.
+Defect A has one precondition: whether the Europeanized form pays for itself. With a source text behind it (translation), it may be the price of fidelity, so the tolerance goes up one notch. When you are writing on your own and the form still comes out Europeanized, that is path inertia and gets treated as a defect.
 
-Fault B runs both ways. An essay written like a government notice is a fault; a government notice written like a stand-up bit is also a fault. The fix is not to drag everything toward speech.
+Defect B runs both ways. An essay written like a government notice is a defect; a government notice written like a stand-up bit is also a defect. The fix is not to drag everything toward speech.
 
-Fault C has the strongest evidence and the weakest prescription. The distribution gap between human and AI text is well measured (sentence-length standard deviation differs by a factor of 1.37), but no intervention study shows that raising the variance makes a text read more human. Marked as unverified until one exists.
+Defect C has the strongest evidence and the weakest fix. The distribution gap between human and AI text is well measured (sentence-length standard deviation differs by a factor of 1.37), but no intervention study shows that raising the variance makes a text read more human. Marked as unverified until one exists.
 
 ### Tiers and levels
 
@@ -89,14 +89,14 @@ rsync -a --exclude .git ./ ~/.hermes/skills/creative/ai-flavor/
 .
 ├── README.md
 ├── README.en.md
-├── SKILL.md                    Skill entry: three faults, five-step workflow, tiers and presets
+├── SKILL.md                    Skill entry: three defects, five-step workflow, tiers and presets
 ├── LICENSE
 ├── NOTICE                      Copyright notices for upstream MIT projects
 ├── src/                        af.py entry point plus scan, metrics, check, lexicon modules
 ├── docs/
 │   ├── MIGRATION.md            Entry-by-entry against humanize's 93: inherited, rewritten, dropped
 │   ├── 00-设计草案.md           Original design frame, superseded by research, kept for comparison
-│   ├── references/             Six references: model, whitelist, tiers, prescriptions, evidence, failure modes
+│   ├── references/             Six references: model, whitelist, tiers, fixes, evidence, failure modes
 │   └── research/               Six studies (A–F), merged conclusions, brief, old-vs-new trials
 ├── assets/
 │   └── lexicon/                233-entry main lexicon, four raw collection passes, merger, adjudication table
