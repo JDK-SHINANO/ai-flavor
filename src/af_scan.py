@@ -110,7 +110,7 @@ RULES = [
 ]
 
 # 内置规则的语言学层级：按「问题主要发生在哪一层」归一层，只归一层。
-# 判据见 lexicon/FORMAT.md 第二节。
+# 判据见 assets/lexicon/FORMAT.md 第二节。
 LEVEL_MAP = {
     "J1": "句法", "J2": "句法", "J3": "句法", "J4": "词法", "J5": "句法",
     "J6": "句法", "J7": "句法", "J8": "语用",
@@ -142,7 +142,7 @@ COMPILED = [(rid, ax, LEVEL_MAP.get(rid, "句法"), name,
 # ============ 外置词库 ============
 # 词库与代码分离：词条由 merge_lexicon.py 从 raw/*.tsv 合并而来。
 # 词库缺失时退回内置规则，不影响可用性。
-LEXICON = os.path.normpath(os.path.join(HERE, "..", "lexicon", "lexicon.tsv"))
+LEXICON = os.path.normpath(os.path.join(HERE, "..", "assets", "lexicon", "lexicon.tsv"))
 
 
 def load_lexicon(path=LEXICON, lang=None):

@@ -24,7 +24,7 @@ metadata:
 - 同一批文本要交给不同读者（导师、领导、公众号、朋友），需要分档处理
 - 旧 `humanize` 判据在公文或散文上误伤时，来这里复核
 
-不用于判定作者身份，不用于绕过 AI 检测器（这条路已被证伪，见 `references/50-evidence.md`）。
+不用于判定作者身份，不用于绕过 AI 检测器（这条路已被证伪，见 `docs/references/50-evidence.md`）。
 
 ## 三病三轴
 
@@ -42,7 +42,7 @@ metadata:
 
 **丙的证据最强，处方最弱**。人类与 AI 的分布差异有硬数据（句长标准差 1.37×），但「改高方差会让人更像人」没有干预实验。用时标为待验证，不要当定理。
 
-三病的证据、倍率与出处见 `references/10-model.md`。
+三病的证据、倍率与出处见 `docs/references/10-model.md`。
 
 ## 流程：五步
 
@@ -52,7 +52,7 @@ metadata:
 
 贺阳（2008）后记的结论是硬边界：**汉语系统中不存在真正的恶性欧化，恶性只在个人言语**。所以白名单不是妥协，是语言事实。
 
-白名单 11 项（他/她/它、关于、复合量词、限定集合的「之一」、术语位的性/化/度、中性「被」、人们、当……时、学术公文的「N 的 V」、系词「是」、常规标点）见 `references/20-whitelist.md`。命中白名单，直接放行，不进报告。
+白名单 11 项（他/她/它、关于、复合量词、限定集合的「之一」、术语位的性/化/度、中性「被」、人们、当……时、学术公文的「N 的 V」、系词「是」、常规标点）见 `docs/references/20-whitelist.md`。命中白名单，直接放行，不进报告。
 
 ### 第二步　定档
 
@@ -64,7 +64,7 @@ metadata:
 
 后果决定容错边界：不可逆的场合，改动力度**降一档**，只动确定项。
 
-九档的默认值、硬约束与「特征 × 文体」矩阵见 `references/30-registers.md`。
+九档的默认值、硬约束与「特征 × 文体」矩阵见 `docs/references/30-registers.md`。
 
 ### 第三步　扫三轴
 
@@ -88,7 +88,7 @@ python3 $S/af.py scan --baseline b1.md b2.md -- 文件.md        # 与同文体�
 | 乙 | 语气词数、口语词数、名词前「的」链长、NP 平均长度 | 语气词为零即警报（人类 16/千词，AI 3） |
 | 丙 | 句长标准差、段落长度极差、并列短语数、元话语次数、可当名言收尾的句子数 | 句长标准差 <7（词口径）起疑 |
 
-**没有通用基线，只有对照基线。** 句长与连接词不设绝对值，取同文体的原创样本比「均值 ± 标准差」。找不到样本时，用 `references/30-registers.md` 里的区间，并注明是估计。
+**没有通用基线，只有对照基线。** 句长与连接词不设绝对值，取同文体的原创样本比「均值 ± 标准差」。找不到样本时，用 `docs/references/30-registers.md` 里的区间，并注明是估计。
 
 ### 第四步　推荐档位
 
@@ -114,7 +114,7 @@ python3 $S/af.py scan --baseline b1.md b2.md -- 文件.md        # 与同文体�
 
 ### 第五步　改，然后验收
 
-处方见 `references/40-prescriptions.md`，验收表见 `references/60-failure-modes.md` §10。
+处方见 `docs/references/40-prescriptions.md`，验收表见 `docs/references/60-failure-modes.md` §10。
 
 **改写顺序**：甲 → 乙 → 丙。先纠偏，再定域，最后破均。反过来做（先打散节奏再改骨架），骨架会留在句子里，读起来仍不像中文。
 
@@ -146,7 +146,7 @@ python3 $S/af.py scan --baseline b1.md b2.md -- 文件.md        # 与同文体�
 
 ○ 正常，删改反出错 ／ △ 可容忍，有边界 ／ × 明显是病
 
-**这张表是本书骨架。** 同一段文字在 R2 被判「名词化过度」，在 R7 被判「不够凝练」——这就是旧体系不带文体开关时方向相反的误判。九档细则与 12×9 矩阵见 `references/30-registers.md`。
+**这张表是本书骨架。** 同一段文字在 R2 被判「名词化过度」，在 R7 被判「不够凝练」——这就是旧体系不带文体开关时方向相反的误判。九档细则与 12×9 矩阵见 `docs/references/30-registers.md`。
 
 ## 预设
 
@@ -218,25 +218,25 @@ python3 $S/af.py scan --baseline b1.md b2.md -- 文件.md        # 与同文体�
 | 把精确改模糊 | 读者不会再有机会知道原文更准 |
 | 改完更干净就交稿 | 词法清零但节拍变匀，反而更像 AI（实测均匀节拍 60→101） |
 
-九种失败模式的识别方法见 `references/60-failure-modes.md`。
+九种失败模式的识别方法见 `docs/references/60-failure-modes.md`。
 
 ## 文件
 
 | 文件 | 内容 |
 |---|---|
-| `references/10-model.md` | 三病的证据基础、倍率、机制、边界 |
-| `references/20-whitelist.md` | 白名单 11 项、黑名单、灰区、四条操作规则 |
-| `references/30-registers.md` | 九档档案、12×9 矩阵、跨档失效（13 条）、R8 专节 |
-| `references/40-prescriptions.md` | 按轴的处方库，含代价与反例 |
-| `references/50-evidence.md` | 全部实证来源、中英对照、未解决清单 |
-| `references/60-failure-modes.md` | 过度去味九种、验收表、处置矩阵 |
-| `scripts/af.py` | 统一入口：scan / metrics / check / lexicon，按等级与属性分派 |
-| `scripts/af_scan.py` | 三轴×三层扫描，支持 `--axis --level --min-conf --register --baseline` |
-| `scripts/af_metrics.py` | 量化画像（连词、语气词、句长分布、TTR/MTLD），输出 TSV |
-| `scripts/af_check.py` | 改稿对账，查数字、新增实体、模态、术语、节拍、篇幅、结构 |
-| `lexicon/FORMAT.md` | 词库收料格式：层（词法/句法/篇章/语用/修辞）× 轴 × 域 |
-| `lexicon/merge_lexicon.py` | 词库合并：校验、去重、跨轴冲突留档 |
-| `lexicon/lexicon.tsv` | 合并后的主词库（由 raw/*.tsv 生成） |
+| `docs/references/10-model.md` | 三病的证据基础、倍率、机制、边界 |
+| `docs/references/20-whitelist.md` | 白名单 11 项、黑名单、灰区、四条操作规则 |
+| `docs/references/30-registers.md` | 九档档案、12×9 矩阵、跨档失效（13 条）、R8 专节 |
+| `docs/references/40-prescriptions.md` | 按轴的处方库，含代价与反例 |
+| `docs/references/50-evidence.md` | 全部实证来源、中英对照、未解决清单 |
+| `docs/references/60-failure-modes.md` | 过度去味九种、验收表、处置矩阵 |
+| `src/af.py` | 统一入口：scan / metrics / check / lexicon，按等级与属性分派 |
+| `src/af_scan.py` | 三轴×三层扫描，支持 `--axis --level --min-conf --register --baseline` |
+| `src/af_metrics.py` | 量化画像（连词、语气词、句长分布、TTR/MTLD），输出 TSV |
+| `src/af_check.py` | 改稿对账，查数字、新增实体、模态、术语、节拍、篇幅、结构 |
+| `assets/lexicon/FORMAT.md` | 词库收料格式：层（词法/句法/篇章/语用/修辞）× 轴 × 域 |
+| `assets/lexicon/merge_lexicon.py` | 词库合并：校验、去重、跨轴冲突留档 |
+| `assets/lexicon/lexicon.tsv` | 合并后的主词库（由 raw/*.tsv 生成） |
 
 完整论证（每份 6000 字，带逐条溯源）在项目 `research/` 目录。
 

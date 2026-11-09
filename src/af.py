@@ -28,7 +28,7 @@ USAGE = __doc__
 
 
 def run_merge():
-    p = os.path.normpath(os.path.join(HERE, "..", "lexicon", "merge_lexicon.py"))
+    p = os.path.normpath(os.path.join(HERE, "..", "assets", "lexicon", "merge_lexicon.py"))
     spec = importlib.util.spec_from_file_location("merge_lexicon", p)
     m = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(m)

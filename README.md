@@ -57,20 +57,20 @@
 ## 怎么用
 
 ```bash
-cd skills/ai-flavor
+# 在仓库根运行
 
 # 画像与扫描
-python3 scripts/af.py metrics 文件.md
-python3 scripts/af.py scan 文件.md
-python3 scripts/af.py scan --level 修辞 --min-conf high 文件.md
-python3 scripts/af.py scan --register R2 公文.md     # 该档合法的词条降为线索
+python3 src/af.py metrics 文件.md
+python3 src/af.py scan 文件.md
+python3 src/af.py scan --level 修辞 --min-conf high 文件.md
+python3 src/af.py scan --register R2 公文.md     # 该档合法的词条降为线索
 
 # 改稿对账：句长标准差、段长极差变小就报警
-python3 scripts/af.py check 原稿.md 改稿.md
+python3 src/af.py check 原稿.md 改稿.md
 
 # 词库合并与校验
-python3 scripts/af.py lexicon
-python3 scripts/af.py lexicon --check
+python3 src/af.py lexicon
+python3 src/af.py lexicon --check
 ```
 
 脚本只举证，不定案。它给行号、片段和置信度，判不判由人。
@@ -78,7 +78,7 @@ python3 scripts/af.py lexicon --check
 作为 Hermes skill 安装：
 
 ```bash
-cp -r skills/ai-flavor ~/.hermes/skills/creative/ai-flavor
+rsync -a --exclude .git ./ ~/.hermes/skills/creative/ai-flavor/
 ```
 
 ## 目录
@@ -86,28 +86,18 @@ cp -r skills/ai-flavor ~/.hermes/skills/creative/ai-flavor
 ```
 .
 ├── README.md
+├── SKILL.md                    技能入口：三病三轴、五步流程、档位与预设
 ├── LICENSE
-├── NOTICE                    上游 MIT 项目的版权声明
+├── NOTICE                      上游 MIT 项目的版权声明
+├── src/                        af.py 统一入口，加扫描、画像、对账、词库四个模块
 ├── docs/
-│   ├── MIGRATION.md          与 humanize 的 93 条逐条对照：哪些继承、哪些改写、哪些没要
-│   └── 00-设计草案.md         立项时的框架，已被研究修正，留作对照
-├── research/
-│   ├── 00-合并结论.md         研究到设计的桥：哪些假设被证伪
-│   ├── A-欧化语法谱系.md       汉语欧化四层十七条 + 白/黑名单
-│   ├── B-类型学默认值.md       汉英语法默认值对照、零回指、话题句、韵律
-│   ├── C-量化特征.md          可计数指标、人类基线、失效条件
-│   ├── D-修辞与对齐.md        修辞痕迹、base 与 instruct 对照
-│   ├── E-应对措施.md          现有方法解剖、九种失败模式
-│   ├── F-文体档位.md          九档档案、12×9 矩阵、跨档失效 13 条
-│   ├── brief.md              给调研代理的任务书（存档）
-│   └── contrast-trials-2026-10/   新旧判据对照实测
-└── skills/
-    └── ai-flavor/
-        ├── SKILL.md          三病三轴、五步流程、档位与预设
-        ├── references/       六份细则：模型、白名单、档位、处方、证据、失败模式
-        ├── lexicon/          233 条主词库、四路原始收料、合并器与人工裁决表
-        ├── scripts/          af.py 统一入口 + 扫描、画像、对账、词库四个模块
-        └── tests/            样本、五档强度实测与结果
+│   ├── MIGRATION.md            与 humanize 的 93 条逐条对照：哪些继承、哪些改写、哪些没要
+│   ├── 00-设计草案.md           立项时的框架，已被研究修正，留作对照
+│   ├── references/             六份细则：模型、白名单、档位、处方、证据、失败模式
+│   └── research/               六份调研（A–F）、合并结论、任务书、新旧判据对照实测
+├── assets/
+│   └── lexicon/                233 条主词库、四路原始收料、合并器与人工裁决表
+└── tests/                      样本、五档强度实测与结果
 ```
 
 ## 依赖

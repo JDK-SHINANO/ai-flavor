@@ -111,6 +111,6 @@ term ｜ type ｜ level ｜ axis ｜ rule ｜ conf ｜ register_scope ｜ exampl
 
 ## 八、交付
 
-- 写到 `skill/lexicon/raw/<代号>.tsv`
+- 写到 `skill/assets/lexicon/raw/<代号>.tsv`
 - 每份不少于 30 条（能多收就多收，去重后再交）
 - 回复里给：总条数、按层分布（词法/句法/篇章/语用/修辞）、按轴分布、三条最典型的原文例句、文件路径
