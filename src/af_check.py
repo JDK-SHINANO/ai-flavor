@@ -85,33 +85,28 @@ def main():
         if not ok:
             fails.append(name)
 
-    # 1 数字
     no, nn = nums(o), nums(n)
     lost = {k: v for k, v in no.items() if nn.get(k, 0) < v}
     add("数字", not lost,
         "全部保留" if not lost else "丢失 " + "、".join(f"{k}×{v}" for k, v in list(lost.items())[:6]))
 
-    # 2 新增实体
     qo, qn = quotes(o), quotes(n)
     newq = qn - qo
     add("新增实体", not newq,
         "无新增书名／专名" if not newq else "新增：" + "、".join(list(newq)[:6]) + "（须能说明来路，否则删）")
 
-    # 3 模态方向
     so, sn = sum(o.count(w) for w in MODAL_STRONG), sum(n.count(w) for w in MODAL_STRONG)
     wo, wn = sum(o.count(w) for w in MODAL_WEAK), sum(n.count(w) for w in MODAL_WEAK)
     modal_ok = (sn >= so - 1) and (wn >= wo - 1)
     add("模态方向", modal_ok,
         f"确定词 {so}→{sn}｜或然词 {wo}→{wn}" + ("" if modal_ok else "（确定度被改动，最严重）"))
 
-    # 4 术语一致：原稿 top 实词是否被替换
     words_o = [w for w in re.findall(r"[\u4e00-\u9fff]{3,6}", o)]
     freq = Counter(words_o).most_common(12)
     swapped = [w for w, c in freq if c >= 3 and w not in n]
     add("术语一致", not swapped,
         "核心词未改写法" if not swapped else "原稿高频词在改稿消失：" + "、".join(swapped[:6]))
 
-    # 5 节拍
     sd_o, sd_n = mo.get("slen_sd"), mn.get("slen_sd")
     pr_o, pr_n = para_range(o), para_range(n)
     tempo_ok = ((sd_n is None or sd_o is None or sd_n >= sd_o * 0.95)
@@ -121,12 +116,10 @@ def main():
         f"{'n/a' if pr_o is None else pr_o}→{'n/a' if pr_n is None else pr_n}"
         + ("" if tempo_ok else "（更匀了：减法式改写的典型症状，回退）"))
 
-    # 6 篇幅
     co, cn = mo.get("chars") or 1, mn.get("chars") or 1
     ratio = cn / co
     add("篇幅", a.min <= ratio <= a.max, f"{co}→{cn} 字，比 {ratio:.2f}（允许 {a.min}–{a.max}）")
 
-    # 7 结构
     st_ok = heads(n) >= heads(o) and fences(n) >= fences(o) and bullets(n) >= bullets(o)
     add("结构", st_ok,
         f"标题 {heads(o)}→{heads(n)}｜代码块 {fences(o)}→{fences(n)}｜列表 {bullets(o)}→{bullets(n)}")
