@@ -1,0 +1,69 @@
+term	type	level	axis	rule	conf	register_scope	example	source	note
+赋能	word	词法	乙	Y1	high	R2可容忍 R7病 R6可容忍	战略布局持续完善、体系建设稳步推进、赋能机制走深走实	https://m.163.com/dy/article_v5/L6F73TCD0556PH6C.html	述职与汇报文本中的固定搭配，本身合法；在产品说明或随笔里替代「支持」「帮助」即为病，语义已被抽空
+抓手	word	词法	乙	Y1	high	R2正常 R7病 R6可容忍	抽离透传归因分析作为抓手为产品赋能	https://news.ifeng.com/c/852SbnOEOvU	公文里可指具体工作切入点，属正常术语；与「赋能」「闭环」连用又不指认具体动作时是病
+闭环	word	词法	乙	Y1	high	R3正常 R2正常 R7病	体验度量作为闭环的评判标准	https://news.ifeng.com/c/852SbnOEOvU	工程与管理语境指反馈回路，正常；泛化成「把事做完」的同义词即病
+颗粒度	word	词法	乙	Y1	high	R3正常 R2可容忍 R7病	通过差异化和颗粒度达到引爆点	https://news.ifeng.com/c/852SbnOEOvU	数据分析领域指统计细分程度，合法；日常说「对齐颗粒度」替代「把细节说清楚」是病
+对齐	word	词法	乙	Y1	mid	R3正常 R2正常 R7病	“对齐” —— 白话：大家统一一下口径/借口，免得被老板问住。	https://k.sina.cn/article_5966885073_163a770d100101ph54.html	排版与机械领域指位置校准，正常；会议语境指「达成一致」是黑话，AI 常把它当万能衔接词
+拉通	word	词法	乙	Y1	high	R2正常 R7病 R6可容忍	“拉通” —— 跟“对齐”差不多，把不认识的人拉到一个群里尴尬	https://k.sina.cn/article_5966885073_163a770d100101ph54.html	制造业指打通工序，正常；组织语境指「叫人对齐」是病
+沉淀	word	词法	乙	Y1	high	R2正常 R1可容忍 R7病	你以为“沉淀”=把经验总结成方法论。	https://k.sina.cn/article_5966885073_163a770d100101ph54.html	化学本义正常；指「积累经验并写成文档」是黑话，AI 爱用它替代「总结」
+复盘	word	词法	乙	Y1	mid	R2正常 R6可容忍 R7病	老板说“复盘一下”=❓	https://k.sina.cn/article_5966885073_163a770d100101ph54.html	围棋术语，正常；项目结束后总结经验也已通用；连两分钟的小事都要「复盘」是滥用
+底层逻辑	word	词法	乙	Y1	high	R2可容忍 R6可容忍 R7病	底层逻辑是打通信息屏障，创建行业新生态。	https://news.ifeng.com/c/852SbnOEOvU	系统论中可用但须给出层次定义；泛化为「原因」的同义词即病
+组合拳	word	修辞	乙	Y1	high	R2正常 R4可容忍 R7病	方法论是组合拳达到平台化标准。	https://news.ifeng.com/c/852SbnOEOvU	体育本义正常；政策语境指多项措施配套尚可，商业文案里指「同时做几件事」是病
+生态位	word	词法	乙	Y1	mid	R1正常 R6可容忍 R7病	闭环、抓手、颗粒度、底层逻辑、生态位、价值链、深水区	https://m.163.com/dy/article_v5/L6F73TCD0556PH6C.html	生态学专业术语，学术文本正常；商业文案指「市场位置」须具体化，否则是伪术语
+打法	word	词法	乙	Y1	high	R2可容忍 R4可容忍 R7病	交付价值是在垂直领域采用复用打法达成持久收益。	https://news.ifeng.com/c/852SbnOEOvU	体育与军事语境正常；商业里替代「做法」是黑话
+链路	word	词法	乙	Y1	mid	R3正常 R7病 R6可容忍	亮点是载体，优势是链路。	https://news.ifeng.com/c/852SbnOEOvU	通信与供应链指实际通路，正常；抽象成「流程」时语义空转
+对标	word	词法	乙	Y1	mid	R2正常 R4正常 R7病	就要时时对标对表	https://www.gdtzb.gov.cn/txzt/srgczybxgdjsxxjj/pljd/content/post_93226.html	公文里指对照标准自查，规范用法；商业文案里替代「模仿」甚至「抄袭」是病
+标杆	word	词法	乙	Y1	mid	R2正常 R4正常 R7病	以上率下作出了示范，树立了标杆	https://www.gdtzb.gov.cn/txzt/srgczybxgdjsxxjj/pljd/content/post_93226.html	公文与管理文本正常；写成「行业标杆」却不给比较维度是空誉
+顶层设计	word	词法	乙	Y1	high	R2正常 R4可容忍 R7病	我们要重塑顶层设计	https://m.163.com/dy/article_v5/L6F73TCD0556PH6C.html	政策文件里有确定含义，指总体架构，正常；用于替代「计划」「方案」即病
+爆款	word	词法	乙	Y1	high	R6正常 R4可容忍 R7病	按博主给的爆款文案公式	http://pub-zhtb.hizh.cn/a/202408/18/AP66c14617e4b083785a636028.html	电商运营里指高销量单品，行业内部正常；用于形容文章、课程、观点即营销腔
+出圈	word	修辞	乙	Y1	high	R6正常 R4可容忍 R7病	再“出圈”的梗也可能翻车	https://jianghu.taobao.com/detail/47301_73825228	饭圈原义指偶像被圈外认识，正常；泛化为「火了」是病
+绝绝子	word	修辞	乙	Y1	high	R6正常 R8可容忍 R1病 R7病	绝绝子的好景好物	https://www.163.com/dy/article/GN8I4SCJ0519H0JE.html	纯网络夸饰词，任何正式文本中出现即病；带货与口语场景内仍属圈内正常
+yyds	word	修辞	乙	Y1	high	R6正常 R8可容忍 R1病 R7病	XX品牌YYDS	https://m.sohu.com/a/511836575_121087919/	拼音缩写式最高级，正式文本一律为病；饭圈与带货语境正常
+天花板	word	修辞	乙	Y1	mid	R6正常 R4可容忍 R7病	经常出现的“yyds”、“绝绝子”、“天花板”	https://xw.qianzhan.com/analyst/detail/329/211105-47ff865e.html	建筑本义正常；作「最高水平」解却不给比较范围是病。此例为媒体归纳的清单，属民间观察
+闭眼入	word	修辞	乙	Y1	high	R6正常 R7病	当每一个博主都在打着“闭眼入”的旗号	https://www.zhipianbang.com/index.php/news/detail-261190.html	带货话术，商品推荐场景内正常；移植到书评、观点文即病
+沉浸式	word	词法	乙	Y1	mid	R6正常 R1可容忍 R7病	沉浸式化妆、沉浸式追剧、沉浸式干饭、沉浸式上课	https://www.zhipianbang.com/index.php/news/detail-261190.html	戏剧与 VR 领域有技术含义，正常；修饰一切日常行为是流量词滥用
+宝藏	word	修辞	乙	Y1	mid	R6正常 R8可容忍 R7病	“宝藏单品”、“挖到宝藏了”	https://m.sohu.com/a/511836575_121087919/	本义指藏物，正常；作「值得推荐」的万能定语是营销腔
+神仙X	pattern	修辞	乙	Y1	high	R6正常 R8可容忍 R7病	“这是什么神仙地方”、“神仙颜值”	https://m.sohu.com/a/511836575_121087919/	「神仙」作定语表极高评价，只见于营销与饭圈；宗教神话语境不算
+原地封神	word	修辞	乙	Y1	high	R6正常 R7病	吃的喝的用的全部直接“原地封神”	https://www.163.com/dy/article/GN8I4SCJ0519H0JE.html	封神榜典故本义正常；用来评商品或人物是营销夸张
+巨巨巨巨好吃	word	修辞	乙	Y1	high	R6正常 R7病	巨巨巨巨好吃	http://pub-zhtb.hizh.cn/a/202408/18/AP66c14617e4b083785a636028.html	叠字强化情绪，只见于营销文案；正常写作应给出具体味觉描述
+糯叽叽	word	词法	乙	Y1	high	R6正常 R5可容忍 R7病	家人们，谁懂这一口糯叽叽的含金量	http://pub-zhtb.hizh.cn/a/202408/18/AP66c14617e4b083785a636028.html	方言拟声词，口语可用；进入食评替代质感描写即语言失语
+next level	pattern	词法	乙	Y1	high	R6正常 R7病	XXX已经next level了……	http://pub-zhtb.hizh.cn/a/202408/18/AP66c14617e4b083785a636028.html	中英混搭的流量句式；正常双语文本与技术文本中不算
+高级感	word	词法	乙	Y1	mid	R6正常 R1可容忍 R7病	用术语编织高级感认同	https://www.xiaoyuzhoufm.com/episode/68fc1d700156720321ed655f	设计、摄影领域指具体的质感指标，正常；不指明指标只给评价即空词
+水灵灵	word	词法	乙	Y1	mid	R7正常 R6正常 R1病 R2病	她就这么水灵灵地走来了	http://pub-zhtb.hizh.cn/a/202408/18/AP66c14617e4b083785a636028.html	本义形容鲜嫩，正常；修饰「换头像」「上班」等无关动作是2024年营销热梗
+刷屏	word	词法	乙	Y1	mid	R4正常 R6正常 R7病	朋友圈肯定都被一句“给我一面国旗@微信官方”刷屏	https://www.zhipianbang.com/news/detail-381216.html	描述传播现象时正常；用于自我宣传「刷屏级」即营销腔
+限时秒杀	word	词法	乙	Y1	high	R6正常 R7病	直接点击首页的限时秒杀，就有9.9的iPhone12	https://www.meihua.info/article/4491767705093120	电商促销术语，促销页内正常；写入叙事文本即广告腔。《广告法》要求「限时」标明具体时限
+全网	word	词法	乙	Y4	mid	R6正常 R4可容忍 R7病	全网第一、销量第一、排名第一	https://www.chuanboyi.net/article/675.html	「全网」作范围限定须可核验；「全网第一」属广告法绝对化用语，此例为禁用词清单，民间归纳
+其实	word	篇章	丙	B1	mid	R8正常 R6正常 R1病 R7可容忍	其实许多东西只能算是“阅读产品”	https://www.chinawriter.com.cn/n1/2017/0410/c405167-29198070.html	口语转折正常；每段开头都用「其实」是在替读者预设误解，属元话语滥用
+说到底	word	篇章	丙	B1	mid	R4正常 R2正常 R1病 R7可容忍	改文风会风话风，说到底就是要改作风、戒虚功。	https://www.gdtzb.gov.cn/txzt/srgczybxgdjsxxjj/pljd/content/post_93226.html	时评与讲话里作归结语正常；一篇出现三次以上且后接常识即为病
+本质上	word	篇章	丙	B1	high	R1正常 R6可容忍 R7病	这类干部干的活，本质上是一种	https://m.163.com/dy/article_v5/L6F73TCD0556PH6C.html	哲学术语有严格用法；日常替代「其实是」是拔高，AI 高频使用
+真正的	word	修辞	丙	B4	mid	R7正常 R6可容忍 R1病	与真正的文学不大沾得上边	https://www.chinawriter.com.cn/n1/2017/0410/c405167-29198070.html	对比真伪时正常；不给判据、只用于抬高后半句即意义拔高
+所谓	word	语用	丙	B1	mid	R1正常 R4正常 R7正常 R6病	既有“才华”、又见“气质”的所谓“瑰奇”女子	https://www.chinawriter.com.cn/n1/2017/0410/c405167-29198070.html	表「众所公认的」时可中性；加引号表轻蔑是评论姿态，学术文本应改为具体所指
+归根结底	word	篇章	丙	B1	mid	R4正常 R1可容忍 R7病	归根结底还是要保持阅读习惯	http://pub-zhtb.hizh.cn/a/202408/18/AP66c14617e4b083785a636028.html	作总结用语正常；与「说到底」「本质上」连用堆叠是病
+不是…而是	pattern	修辞	丙	B3	high	R7正常 R6可容忍 R1病	不是到了什么年龄就可以过上什么样的生活；而是你付出了什么样的努力	https://musicupload.netease.com/m/program?id=909628761	真对比（否定A肯定B且有依据）正常；只为制造警句、A 是稻草人时是假对比
+你以为…其实	pattern	修辞	丙	B3	high	R6正常 R8正常 R1病 R7病	你以为一切就这样了么？其实事情并没有想象的那么美好	https://www.pingwest.com/a/77299	知乎故事体的固定反转；真实对话中正常，书面论述中属编排读者
+余生	pattern	修辞	丙	B4	high	R7正常 R8可容忍 R6病	《余生，找一个把你宠成小孩的人》	http://wb.lhrb.com.cn/html/2018-10/23/content_35645.htm	「余生」本义正常；鸡汤标题里作「往后一辈子」的承诺是煽情套式
+愿你	pattern	修辞	丙	B4	high	R8正常 R7可容忍 R1病 R2病	愿你走出半生，归来仍是少年。	https://www.thepaper.cn/newsDetail_forward_1662360	书信与祝词中正常；连续排比「愿你」是鸡汤体标志，光明网曾专文批评其套路化
+先说结论	word	篇章	丙	B2	high	R6正常 R8可容忍 R1病	先说结论，于买家们，毫无意义。	https://www.sohu.com/a/129233261_533940	知乎体开头，功能性尚可；每节都用则成模板，且常以断言代替论证
+你必须承认	word	语用	丙	B1	high	R8可容忍 R6正常 R1病	你必须承认，有些人有20年的工作经验	https://musicupload.netease.com/m/program?id=909628761	说教式预设共识，鸡汤体常见；议论文中应改为给出证据
+作为一个	word	句法	甲	J8	high	R2正常 R9可容忍 R7病	你作为一位大美人，实在不必花太多钱买化妆品了！	https://mooc1.chaoxing.com/ztnodedetailcontroller/visitnodedetail?courseId=83518325&knowledgeId=83518386	董桥所引批评对象；正式文书里用「作为+身份」界定身份正常，替代「是」时冗余
+作为…之一	pattern	句法	甲	J8	high	R9可容忍 R1病 R4病	作为竹林七闲之一的刘伶……	https://mooc1.chaoxing.com/ztnodedetailcontroller/visitnodedetail?courseId=83518325&knowledgeId=83518386	余光中判为恶性西化的畸婴；正常说法是「刘伶是竹林七闲之一」
+之一	word	词法	甲	Y5	mid	R9正常 R1正常 R4正常 R7可容忍	刘伶是竹林七闲之一。	https://mooc1.chaoxing.com/ztnodedetailcontroller/visitnodedetail?courseId=83518325&knowledgeId=83518386	本义列举成员，已通用属正常；与「最好的之一」「原因之一」叠加则弱化判断
+的的不休	pattern	句法	甲	J6	high	R9可容忍 R1可容忍 R4病 R7病	她不得不正视有关她的家族的几个尴尬的事实	https://mooc1.chaoxing.com/ztnodedetailcontroller/visitnodedetail?courseId=83518325&knowledgeId=83518386	三个「的」连缀；法律与公文为限定范围可保留，文学与评论中应拆句
+当…的时候	pattern	句法	甲	J5	high	R9可容忍 R1可容忍 R7病	當我走進房間的時候，我看見他。	https://github.com/yPin9/Learning-with-Claude/blob/main/soft_skills/chinese_writing/08-translatese.md	时间从句直译；中文说「我走进房间，看见他」即可，不必用「当……的时候」
+被	pattern	句法	甲	J3	low	R9正常 R1正常 R3正常 R7可容忍	這個問題正在被解決。	https://github.com/yPin9/Learning-with-Claude/blob/main/soft_skills/chinese_writing/08-translatese.md	施事不明或须强调受事时正常；中文多用主动，泛用「被」是西化。仅作线索
+受到…的影响	pattern	句法	甲	J3	mid	R1正常 R9正常 R7可容忍	她的寫作受到了張愛玲的影響。	https://github.com/yPin9/Learning-with-Claude/blob/main/soft_skills/chinese_writing/08-translatese.md	学术文本中正常；文学叙述里可改为「张爱玲影响了她的写作」
+进入…状态	pattern	词法	甲	J1	high	R3正常 R9可容忍 R7病	“睡着了”要说成“进入了睡眠状态”	https://mooc1.chaoxing.com/ztnodedetailcontroller/visitnodedetail?courseId=83518325&knowledgeId=83518386	技术文档描述状态机时正常；日常动作这样写是抽象名词化
+在很大程度上	word	句法	甲	Y3	mid	R1正常 R9可容忍 R7病	我们的努力程度很大程度上决定了我们的生存状态	https://musicupload.netease.com/m/program?id=909628761	须有程度依据；泛用作模糊限定是翻译腔
+值得一提的是	word	篇章	甲	B1	mid	R1病 R4可容忍 R9可容忍	值得一提的是，小米还做了一个边框镶嵌钻石的版本	https://m.thepaper.cn/newsDetail_forward_29187555	新闻稿里作补充过渡，单次可容忍；论文中替代「此外」或连续使用是病
+不得不说	word	篇章	甲	B1	mid	R9正常 R6正常 R1病	我不得不说，这些学生给了我生命中最棒的经历之一。	http://dict.youdao.com/example/written/%E6%88%91%E4%B8%8D%E5%BE%97%E4%B8%8D%E8%AF%B4/	词典例句，转述与口译中正常；论述文中作情绪铺垫是元话语
+对于…而言	pattern	句法	甲	Y3	high	R1正常 R2正常 R9正常 R6病	对于大龄相亲群体而言，沟通成本往往是首要障碍	https://www.xuezishi.net/why-is-the-phenomenon-of-westernised-chinese-so-prevalent-nowadays	介词框架起句；须限定范围时可用，每段都用则西化
+具有…意义	pattern	句法	乙	Y4	high	R1病 R2可容忍 R4可容忍	具有重要的理论意义和实践意义	https://www.paperday.cn/news/4849.html	学位论文里几乎必写，属制度性套话；必须接具体知识增量，否则是空话
+丰富了…的研究	pattern	修辞	乙	Y1	high	R1病 R9可容忍	本文丰富了相关领域的研究	https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Economic-Research-Journal-Skills/skills/er-abstract/SKILL.md	「丰富了文献」是永真式，任何论文都成立；须说明丰富了哪一支文献、改变了什么判断
+为…提供了新的视角	pattern	修辞	乙	Y1	high	R1病	为 XX 研究提供了新的视角	https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Economic-Research-Journal-Skills/skills/er-abstract/SKILL.md	须指明「新」相对于哪个旧视角；没有参照物时语义为空
+本文认为	word	篇章	乙	B1	mid	R1正常 R9可容忍 R4病	本文认为“欧化”，“西化”，“英化”这几个术语是可以等同的	https://s.wanfangdata.com.cn/thesis?q=%E6%AC%A7%E5%8C%96	学位论文中标识作者立场，正常；摘要里每段「本文认为」是元话语冗余
+综上所述	word	篇章	乙	B1	high	R1正常 R9正常 R4病	综上所述，该领域仍有待进一步研究	https://wap.yanfajia.com/news/7549.html	须真做归纳；只是承上启下或引出空结论时是病，教学文章有专文批评
+有待进一步研究	word	语用	乙	NEW	high	R1可容忍 R9可容忍 R4病	不能笼统地说"仍有待进一步研究"	https://wap.yanfajia.com/news/7569.html	指出具体缺口时正常；作结论收尾是免责套话
+随着…的发展	pattern	篇章	乙	Y6	high	R4可容忍 R1病 R6正常	什么随着社会经济的快速发展	https://www.paperday.cn/news/4849.html	时代背景开头；须有具体年份与数据，否则是万能起句
+近年来…广泛研究	pattern	篇章	乙	Y6	high	R1病 R4可容忍	近年来，XX 得到了广泛研究	https://m.sohu.com/a/994083036_122464893/	须点名学者与结论；这句换任何题目都成立
+填补了…空白	pattern	修辞	乙	B4	high	R1病 R4病	填补国内空白	https://www.chuanboyi.net/article/675.html	须有文献证据证明空白存在；否则是自我夸大，广告法同样禁用「填补国内空白」
+本文通过研究…具有重要意义	pattern	修辞	乙	B4	high	R1病	本文通过研究，提出了对策建议，具有重要意义	https://m.qinxue365.com/embaxw/512726.html	评审明确反感的摘要句式；意义须具体到对谁有用

@@ -1,0 +1,77 @@
+term	type	level	axis	rule	conf	register_scope	example	source	note
+delves	word	词法	甲	J1	high	R1正常 其它档须谨慎	This study delves into the impacts of maintaining mean arterial blood pressure	Juzek & Ward 2025, COLING 2025, 2025.coling-main.426, Appendix A (arXiv:2412.11385)	英文侧实证；PubMed 摘要 opm 0.21→14.38，增幅 6697%；Kobak 同词 r=28.0
+delve	word	词法	甲	J1	high	R1正常 其它档须谨慎	Initially, we delve into the intricacies of [...]	Kobak et al. 2025, Sci Adv 11(27): eadt3813, Sec.2.1/2.2 (arXiv:2406.07016)	英文侧实证；Juzek 附录 A：opm 0.58→8.50，+1375%
+delving	word	词法	甲	J1	high	R1正常 其它档须谨慎	as a tool for delving into the intricate mechanisms of c-di-GMP signaling	Juzek & Ward 2025, COLING 2025, 2025.coling-main.426, Appendix A (arXiv:2412.11385)	英文侧实证；+1817%（0.12→2.38）
+delved	word	词法	甲	J1	high	R1正常 其它档须谨慎		Juzek & Ward 2025, COLING 2025, 2025.coling-main.426, Appendix A (arXiv:2412.11385)	英文侧实证；+2240%（0.12→2.90）；词典项，无论文例句
+showcasing	word	词法	甲	J1	high	R1正常 其它档须谨慎		Kobak et al. 2025, Sci Adv 11(27): eadt3813, Sec.2.1/2.2 (arXiv:2406.07016)	英文侧实证；2024 年 r=10.7；词典项，无论文例句
+showcases	word	词法	甲	J1	high	R1正常 其它档须谨慎	This paper showcases a novel approach for targeting and disrupting c-di-GMP signaling pathways	Juzek & Ward 2025, COLING 2025, 2025.coling-main.426, Appendix A (arXiv:2412.11385)	英文侧实证；+422%
+boasts	word	词法	甲	J1	high	R1正常 其它档须谨慎		Juzek & Ward 2025, COLING 2025, 2025.coling-main.426, Appendix A (arXiv:2412.11385)	英文侧实证；+918%；词典项，无论文例句
+underscores	word	词法	甲	J1	high	R1正常 其它档须谨慎		Juzek & Ward 2025, COLING 2025, 2025.coling-main.426, Appendix A (arXiv:2412.11385)	英文侧实证；+904%（4.50→45.19）；Kobak r=13.8；词典项，无论文例句
+underscore	word	词法	甲	J1	high	R1正常 其它档须谨慎		Juzek & Ward 2025, COLING 2025, 2025.coling-main.426, Appendix A (arXiv:2412.11385)	英文侧实证；+391%；词典项，无论文例句
+underscoring	word	词法	甲	J1	high	R1正常 其它档须谨慎		Juzek & Ward 2025, COLING 2025, 2025.coling-main.426, Appendix A (arXiv:2412.11385)	英文侧实证；+537%；词典项，无论文例句
+comprehending	word	词法	甲	J1	mid	R1正常 其它档须谨慎	and highlight the advancements in comprehending the relationship between MABP and TSCI recovery	Juzek & Ward 2025, COLING 2025, 2025.coling-main.426, Appendix A (arXiv:2412.11385)	英文侧实证；+899%；学术文中 comprehend 属正常，分词化+抽象宾语才可疑
+intricacies	word	词法	乙	Y1	high	R1正常 其它档须谨慎	we delve into the intricacies of [...]	Juzek & Ward 2025, COLING 2025, 2025.coling-main.426, Appendix A (arXiv:2412.11385)	英文侧实证；+773%；亦在 Kobak 291 词表；假精密度抽象名词
+intricate	word	词法	乙	Y1	high	R1正常 其它档须谨慎	the intricate web connecting [...] and [...]	Juzek & Ward 2025, COLING 2025, 2025.coling-main.426, Appendix A (arXiv:2412.11385)	英文侧实证；+611%；Reinhart 报 GPT-4o 119×；Kobak 291 亦列
+surpassing	word	词法	甲	J1	mid	R1正常 其它档须谨慎		Juzek & Ward 2025, COLING 2025, 2025.coling-main.426, Appendix A (arXiv:2412.11385)	英文侧实证；+667%；词典项，无论文例句
+garnered	word	词法	甲	J1	high	R1正常 其它档须谨慎		Juzek & Ward 2025, COLING 2025, 2025.coling-main.426, Appendix A (arXiv:2412.11385)	英文侧实证；+437%；词典项，无论文例句
+emphasizing	word	词法	甲	J1	mid	R1正常 其它档须谨慎		Juzek & Ward 2025, COLING 2025, 2025.coling-main.426, Appendix A (arXiv:2412.11385)	英文侧实证；+397%；词典项，无论文例句
+realm	word	词法	乙	Y1	high	R1正常 其它档须谨慎		Juzek & Ward 2025, COLING 2025, 2025.coling-main.426, Appendix A (arXiv:2412.11385)	英文侧实证；+381%；Liang et al. 2024 亦列为 LLM 首选词；词典项，无论文例句
+surpasses	word	词法	甲	J1	mid	R1正常 其它档须谨慎	These findings surpass previous knowledge	Juzek & Ward 2025, COLING 2025, 2025.coling-main.426, Appendix A (arXiv:2412.11385)	英文侧实证；+368%
+groundbreaking	word	词法	丙	B4	high	R1正常 其它档须谨慎		Juzek & Ward 2025, COLING 2025, 2025.coling-main.426, Appendix A (arXiv:2412.11385)	英文侧实证；+330%；词典项，无论文例句
+advancements	word	词法	乙	Y2	high	R1正常 其它档须谨慎	highlight the advancements in comprehending the relationship	Juzek & Ward 2025, COLING 2025, 2025.coling-main.426, Appendix A (arXiv:2412.11385)	英文侧实证；+278%；复数抽象名词作宾语
+aligns	word	词法	甲	J1	mid	R1正常 其它档须谨慎		Juzek & Ward 2025, COLING 2025, 2025.coling-main.426, Appendix A (arXiv:2412.11385)	英文侧实证；+267%；词典项，无论文例句
+meticulously	word	词法	乙	Y1	high	R1正常 其它档须谨慎	By meticulously delving into the intricate web	Kobak et al. 2025, Sci Adv 11(27): eadt3813, Fig. S6 (arXiv:2406.07016)	英文侧实证；291 词表之一；Gray 2024 报 2023 年该词频率约 2 倍
+interplay	word	词法	乙	Y1	high	R1正常 其它档须谨慎	the intricate interplay between [...] and [...]	Kobak et al. 2025, Sci Adv 11(27): eadt3813, Fig. S6 (arXiv:2406.07016)	英文侧实证；291 词表之一；常与 intricate 搭配成假精密短语
+pivotal	word	词法	丙	B4	high	R1正常 其它档须谨慎	A comprehensive grasp of the intricate interplay between [...] and [...] is pivotal for effective therapeutic strategies.	Kobak et al. 2025, Sci Adv 11(27): eadt3813, Fig. S6 (arXiv:2406.07016)	英文侧实证；291 词表之一；Liang et al. 2024 列为 LLM 首选词
+comprehensive	word	词法	丙	B4	mid	R1正常 其它档须谨慎	this comprehensive chapter takes a deep dive	Kobak et al. 2025, Sci Adv 11(27): eadt3813, Fig. S6 (arXiv:2406.07016)	英文侧实证；2024 年高频 10 词集之一（集合 Δ=0.134）；学术综述中属正常
+crucial	word	词法	丙	B4	mid	R1正常 其它档须谨慎		Kobak et al. 2025, Sci Adv 11(27): eadt3813, Sec.2.1/2.2 (arXiv:2406.07016)	英文侧实证；δ=0.037（2024 年超额频次 gap）；10 词集之一；词典项，无论文例句
+potential	word	词法	乙	Y2	mid	R1正常 其它档须谨慎		Kobak et al. 2025, Sci Adv 11(27): eadt3813, Sec.2.1/2.2 (arXiv:2406.07016)	英文侧实证；δ=0.052，单该词即可推 5.2% 下界；词典项，无论文例句
+findings	word	词法	乙	Y2	mid	R1正常 其它档须谨慎		Kobak et al. 2025, Sci Adv 11(27): eadt3813, Sec.2.1/2.2 (arXiv:2406.07016)	英文侧实证；δ=0.041；词典项，无论文例句
+notably	word	篇章	丙	B1	mid	R1正常 其它档须谨慎		Kobak et al. 2025, Sci Adv 11(27): eadt3813, Fig. S6 (arXiv:2406.07016)	英文侧实证；10 词集之一；句首立场状语，学术文中本身合法；词典项，无论文例句
+particularly	word	篇章	丙	B1	mid	R1正常 其它档须谨慎		Kobak et al. 2025, Sci Adv 11(27): eadt3813, Fig. S6 (arXiv:2406.07016)	英文侧实证；10 词集之一；词典项，无论文例句
+additionally	word	篇章	丙	B1	mid	R1正常 其它档须谨慎		Kobak et al. 2025, Sci Adv 11(27): eadt3813, Fig. S6 (arXiv:2406.07016)	英文侧实证；10 词集之一；句首衔接词密集出现才算病；词典项，无论文例句
+insights	word	词法	乙	Y2	mid	R1正常 其它档须谨慎		Kobak et al. 2025, Sci Adv 11(27): eadt3813, Fig. S6 (arXiv:2406.07016)	英文侧实证；10 词集之一；词典项，无论文例句
+within	word	词法	乙	Y3	low	R1正常 其它档须谨慎		Kobak et al. 2025, Sci Adv 11(27): eadt3813, Fig. S6 (arXiv:2406.07016)	英文侧实证；10 词集之一；介词，单独无判别力；词典项，无论文例句
+across	word	词法	乙	Y3	low	R1正常 其它档须谨慎		Kobak et al. 2025, Sci Adv 11(27): eadt3813, Fig. S6 (arXiv:2406.07016)	英文侧实证；10 词集之一；介词，单独无判别力；词典项，无论文例句
+enhancing	word	词法	甲	J1	mid	R1正常 其它档须谨慎		Kobak et al. 2025, Sci Adv 11(27): eadt3813, Fig. S6 (arXiv:2406.07016)	英文侧实证；10 词集之一；词典项，无论文例句
+exhibited	word	词法	甲	J1	mid	R1正常 其它档须谨慎		Kobak et al. 2025, Sci Adv 11(27): eadt3813, Fig. S6 (arXiv:2406.07016)	英文侧实证；10 词集之一；词典项，无论文例句
+seamless	word	词法	乙	Y1	mid	R1正常 其它档须谨慎		Kobak et al. 2025, Sci Adv 11(27): eadt3813, Fig. S6 (arXiv:2406.07016)	英文侧实证；291 词表之一（style）；词典项，无论文例句
+encompasses	word	词法	甲	J1	mid	R1正常 其它档须谨慎		Kobak et al. 2025, Sci Adv 11(27): eadt3813, Fig. S6 (arXiv:2406.07016)	英文侧实证；291 词表之一；词典项，无论文例句
+imperative	word	词法	丙	B4	mid	R1正常 其它档须谨慎		Kobak et al. 2025, Sci Adv 11(27): eadt3813, Fig. S6 (arXiv:2406.07016)	英文侧实证；291 词表之一；词典项，无论文例句
+invaluable	word	词法	丙	B4	mid	R1正常 其它档须谨慎		Kobak et al. 2025, Sci Adv 11(27): eadt3813, Fig. S6 (arXiv:2406.07016)	英文侧实证；291 词表之一；词典项，无论文例句
+burgeoning	word	词法	乙	Y1	mid	R1正常 其它档须谨慎		Kobak et al. 2025, Sci Adv 11(27): eadt3813, Fig. S6 (arXiv:2406.07016)	英文侧实证；291 词表之一；词典项，无论文例句
+avenues	word	词法	乙	Y1	mid	R1正常 其它档须谨慎		Kobak et al. 2025, Sci Adv 11(27): eadt3813, Fig. S6 (arXiv:2406.07016)	英文侧实证；291 词表之一；复数抽象名词；词典项，无论文例句
+versatility	word	词法	乙	Y4	mid	R1正常 其它档须谨慎		Kobak et al. 2025, Sci Adv 11(27): eadt3813, Fig. S6 (arXiv:2406.07016)	英文侧实证；291 词表之一；-ity 名词化壳；词典项，无论文例句
+utilizes	word	词法	甲	J1	mid	R1正常 其它档须谨慎		Kobak et al. 2025, Sci Adv 11(27): eadt3813, Fig. S6 (arXiv:2406.07016)	英文侧实证；291 词表之一；use 的拉丁化替代；词典项，无论文例句
+bolster	word	词法	甲	J1	mid	R1正常 其它档须谨慎		Kobak et al. 2025, Sci Adv 11(27): eadt3813, Fig. S6 (arXiv:2406.07016)	英文侧实证；291 词表之一；词典项，无论文例句
+elucidate	word	词法	甲	J1	mid	R1正常 其它档须谨慎		Kobak et al. 2025, Sci Adv 11(27): eadt3813, Fig. S6 (arXiv:2406.07016)	英文侧实证；291 词表之一；词典项，无论文例句
+harness	word	词法	甲	J1	mid	R1正常 其它档须谨慎		Kobak et al. 2025, Sci Adv 11(27): eadt3813, Fig. S6 (arXiv:2406.07016)	英文侧实证；291 词表之一；词典项，无论文例句
+camaraderie	word	词法	乙	NEW	high	R7正常 其它档可疑	The camaraderie was palpable.	Reinhart et al. 2025, PNAS 122: e2422455122, Table 1 (arXiv:2410.16107)	英文侧实证；GPT-4o 使用率 162×人类，4o-mini 171×；语域错位：文学词入非文学文体
+palpable	word	词法	乙	NEW	high	R7正常 其它档可疑	The camaraderie was palpable.	Reinhart et al. 2025, PNAS 122: e2422455122, Table 1 (arXiv:2410.16107)	英文侧实证；95×（4o-mini 145×，Llama 70B Instruct 47×）
+tapestry	word	词法	乙	NEW	high	R7正常 其它档可疑		Reinhart et al. 2025, PNAS 122: e2422455122, Table 1 (arXiv:2410.16107)	英文侧实证；155×（4o-mini 147×）；出现在 23% 的 GPT-4o 输出中（SI Table S7）；词典项，无论文例句
+amidst	word	词法	乙	Y3	mid	R7正常 其它档可疑		Reinhart et al. 2025, PNAS 122: e2422455122, Table 1 (arXiv:2410.16107)	英文侧实证；100×（4o-mini 90×）；出现在 27% 的 GPT-4o 输出中；词典项，无论文例句
+unspoken	word	词法	乙	NEW	mid	R7正常 其它档可疑		Reinhart et al. 2025, PNAS 122: e2422455122, Table 1 (arXiv:2410.16107)	英文侧实证；102×；词典项，无论文例句
+solace	word	词法	乙	NEW	mid	R7正常 其它档可疑		Reinhart et al. 2025, PNAS 122: e2422455122, Table 1 (arXiv:2410.16107)	英文侧实证；95×；词典项，无论文例句
+fleeting	word	词法	乙	NEW	mid	R7正常 其它档可疑		Reinhart et al. 2025, PNAS 122: e2422455122, Table 1 (arXiv:2410.16107)	英文侧实证；84×（4o-mini 124×）；词典项，无论文例句
+unravel	word	词法	甲	J1	mid	R1正常 其它档须谨慎		Reinhart et al. 2025, PNAS 122: e2422455122, Table 1 (arXiv:2410.16107)	英文侧实证；83×；词典项，无论文例句
+grapple	word	词法	甲	J1	mid	R1正常 其它档须谨慎		Reinhart et al. 2025, PNAS 122: e2422455122, Table 1 (arXiv:2410.16107)	英文侧实证；4o-mini 131×，Llama 8B Instruct 24×；词典项，无论文例句
+vibrant	word	词法	丙	B4	mid	R7正常 其它档可疑		Reinhart et al. 2025, PNAS 122: e2422455122, Table 1 (arXiv:2410.16107)	英文侧实证；92×；空心褒义形容词；词典项，无论文例句
+cacophony	word	词法	乙	NEW	mid	R7正常 其它档可疑		Reinhart et al. 2025, PNAS 122: e2422455122, Table 1 (arXiv:2410.16107)	英文侧实证；89×；词典项，无论文例句
+ignite	word	词法	甲	J1	mid	R1正常 其它档须谨慎		Reinhart et al. 2025, PNAS 122: e2422455122, Table 1 (arXiv:2410.16107)	英文侧实证；122×；词典项，无论文例句
+unease	word	词法	乙	NEW	mid	R7正常 其它档可疑		Reinhart et al. 2025, PNAS 122: e2422455122, Table 1 (arXiv:2410.16107)	英文侧实证；Llama 70B Instruct 63×，Llama 8B Instruct 101×；词典项，无论文例句
+, [a-z]{3,}ing\b[^.]*,	pattern	句法	甲	J6	mid	R1正常 其它档须谨慎	Bryan, leaning on his agility, dances around the ring, evading Show's heavy blows.	Reinhart et al. 2025, PNAS 122: e2422455122, Table 1 (arXiv:2410.16107)	英文侧实证；现在分词从句 5.3×（配对 Cohen d=1.38）；文学叙事中正常
+(?i)\b[a-z]{4,}[ts]ion\b	pattern	句法	甲	Y4	low	R1正常 其它档须谨慎	reduce deforestation, habitat destruction, and pollution	Reinhart et al. 2025, PNAS 122: e2422455122, Table 1 (arXiv:2410.16107)	英文侧实证；名词化 2.1×（d=1.23）；学术英语本就高名词化，需看密度；正则仅覆盖 -tion/-sion；-ment/-ity/-ness/-ance 同构后缀见本条说明，未入正则
+(?i)\bbeen [a-z]{3,}ed\b	pattern	句法	甲	J3	low	R1正常 其它档须谨慎		Reinhart et al. 2025, PNAS 122: e2422455122, Table 1 (arXiv:2410.16107)	英文侧实证但方向相反：GPT-4o 无施事被动仅人类 0.5×，不可单独作 AI 标记；句式项，论文未附例句；正则仅覆盖 been 形被动；is/was/were 形同构，未入正则
+(?i)\bthat [a-z]+ [a-z]+ is\b	pattern	句法	甲	J8	low	R1正常 其它档须谨慎		Reinhart et al. 2025, PNAS 122: e2422455122, Table 1 (arXiv:2410.16107)	英文侧实证；that 从句作主语 2.6×（d=0.77）；句式项，论文未附例句；正则仅覆盖 that+is 形；whether 引导及 was/remains 形同构，未入正则
+(?i)\band the [a-z]+ of\b	pattern	句法	甲	J2	low	R1正常 其它档须谨慎		Reinhart et al. 2025, PNAS 122: e2422455122, Table 1 (arXiv:2410.16107)	英文侧实证；短语并列 1.9×（d=0.81）；句式项，论文未附例句；正则仅覆盖 and the X of 形；or/a 形同构，未入正则
+综上所述	word	篇章	丙	B1	high	R1可 R2可 其它档可疑	高频出现的 “综上所述”“值得注意的是” 等万能过渡词	维普AIGC检测 产品页 fanyu.com/ProductService/wei_pu_a_i_g_c_jian_ce 及渠道稿 sohu.com/a/901384871_120466353	中文侧；厂商与媒体口径一致指认，无统计倍数；公文与学术结论段本属常规，须看密度
+值得注意的是	word	篇章	丙	B1	high	R1可 R2可 其它档可疑	高频出现的 “综上所述”“值得注意的是” 等万能过渡词	维普AIGC检测 产品页 fanyu.com/ProductService/wei_pu_a_i_g_c_jian_ce 及渠道稿 sohu.com/a/901384871_120466353	中文侧；多处口径一致指认，无统计倍数；单次出现常见于人类文本
+首先[^。]{0,80}其次[^。]{0,80}最后	pattern	篇章	丙	B2	mid	R1可 R2可 其它档可疑	高频使用“首先、其次、总之”“总的来说”“值得注意的是”等衔接词	简圣宇 2026, 中国社会科学报 2026-07-03, 智能写作的「AI味」问题	中文侧；学理评论，非统计词表；实验步骤等确有先后顺序时正常；正则停在「最后」；以「总之」收尾的同构变体未入正则
+由此可见	word	篇章	丙	B1	mid	R1可 R2可 其它档可疑	选择诸如“由此可见”“不难看出”“具有重要意义”等空洞的总结套话	简圣宇 2026, 中国社会科学报 2026-07-03, 智能写作的「AI味」问题	中文侧；学理评论，非统计词表；总结段单用一次正常
+不难看出	word	篇章	丙	B1	mid	R1可 R2可 其它档可疑	选择诸如“由此可见”“不难看出”“具有重要意义”等空洞的总结套话	简圣宇 2026, 中国社会科学报 2026-07-03, 智能写作的「AI味」问题	中文侧；学理评论，非统计词表
+具有重要意义	word	篇章	丙	B4	high	R1可 R2可 其它档可疑	选择诸如“由此可见”“不难看出”“具有重要意义”等空洞的总结套话	简圣宇 2026, 中国社会科学报 2026-07-03, 智能写作的「AI味」问题	中文侧；学理评论，非统计词表；无信息增量的拔高句
+总的来说	word	篇章	丙	B1	mid	R1可 R2可 其它档可疑	高频使用“首先、其次、总之”“总的来说”“值得注意的是”等衔接词	简圣宇 2026, 中国社会科学报 2026-07-03, 智能写作的「AI味」问题	中文侧；学理评论，非统计词表
+通过[^，。]{1,20}方法[^。]{0,20}实现	pattern	句法	甲	J1	mid	待定	“通过 XX 方法实现了 XX 目标” 这类模板化句式	维普AIGC检测 产品页 fanyu.com/ProductService/wei_pu_a_i_g_c_jian_ce 及渠道稿 sohu.com/a/901384871_120466353	中文侧；厂商渠道稿口径，非官方白皮书；方法类论文中属常规表述
+以上内容强调了	word	篇章	丙	B1	mid	待定	“以上内容强调了”“本文得出了”“以下是”等词句	《出版与印刷》AIGC检测系统对比实测, cbyys.sppc.edu.cn PDF eb34e144（二手，仅见检索摘要）	中文侧；二手，检测系统漏判样本中人工可辨的标识词，非词表
+本文得出了	word	篇章	丙	B1	mid	待定	“以上内容强调了”“本文得出了”“以下是”等词句	《出版与印刷》AIGC检测系统对比实测, cbyys.sppc.edu.cn PDF eb34e144（二手，仅见检索摘要）	中文侧；二手，同上
+以下是	word	篇章	丙	B1	low	待定	“以上内容强调了”“本文得出了”“以下是”等词句	《出版与印刷》AIGC检测系统对比实测, cbyys.sppc.edu.cn PDF eb34e144（二手，仅见检索摘要）	中文侧；二手；列举前的正常提示语，单独无判别力

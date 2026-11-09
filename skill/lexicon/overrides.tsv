@@ -1,0 +1,20 @@
+# 人工裁决表
+#
+# 用途：词库合并时，同一词条被不同来源归到不同轴/层/规则，由人裁决后写在这里。
+# 原始收料（raw/*.tsv）保持原样，便于日后翻案；本表只覆盖 axis / level / rule / conf。
+#
+# 列序：term	axis	level	rule	conf	reason
+#
+# 裁决原则（本轮适用，后续若改须在 reason 里写明）：
+#   过度词（把一个具体说法换成正式抽象词）→ 乙（语域塌缩）
+#   元话语（预告、总结、免责、称呼读者）→ 丙（结构可预测）
+#   句法义务迁移（连接词必现、代词必补、从句后置）→ 甲（形合硬搬）
+
+term	axis	level	rule	conf	reason
+综上所述	丙	篇章	B1	high	元话语，管读者预期，非语域塌缩
+值得一提的是	丙	篇章	B1	high	同上；人类亦用，密度高才判
+delve	乙	词法	Y1	high	过度词：具体说法被换成正式抽象词，属语域
+pivotal	乙	词法	Y1	high	同上。作「关键的」单用时可降 mid
+crucial	乙	词法	Y1	high	同上
+vibrant	乙	词法	Y1	high	同上
+underscore	乙	词法	Y1	high	同上（动词位滥用）

@@ -1,0 +1,50 @@
+term	type	level	axis	rule	conf	register_scope	example	source	note
+对[^，。]{1,12}进行[^，。]{1,8}	pattern	句法	甲	J1	high	R1正常 R3正常 R6病	通过对策略进行调整，实现了对转化率的提升	https://cloud.tencent.cn/developer/article/2757710	「对X进行Y」是英译中标志骨架；具体流程描述（对样本进行离心、对账目进行核对）属正常，关键看能否还原成单个动词
+进行了[^，。]{0,10}	pattern	句法	甲	J1	high	R1正常 R2正常 R6病	团队对此进行了深入分析	https://cloud.tencent.cn/developer/article/2757710	万能动词替代具体动词；有量词或明确施事支撑（进行了三次实验、我们做了三轮）可放行
+确保[^，。]{0,6}运行	pattern	句法	甲	J1	mid	R2正常 R3正常 R6病	确保系统稳定运行	https://cloud.tencent.cn/developer/article/2757710	ensure 直译，同类还有「确保落地」「确保稳定」；有明确责任主体和验收标准时属正常工程语言；民间观察
+被[^，。]{1,8}为	pattern	句法	甲	J3	low	R1正常 R3正常 R6病	该问题被定位为配置错误	https://cloud.tencent.cn/developer/article/2757710	施事未知或不必说时正常；「被曝／官方称」是归因框架，不得按此规则删
+该[^，。]{1,8}在于其	pattern	句法	甲	NEW	mid	R2正常 R1正常 R6病	该方案的优势在于其灵活性	https://cloud.tencent.cn/developer/article/2757710	建议立 甲 J9「该／其」直译 the/its；公文体「该同志」「该单位」「该公司」是中文固有用法，不算
+存在着[^，。]{0,10}	pattern	句法	甲	J7	mid	R2正常 R6病	存在着诸多问题	https://cloud.tencent.cn/developer/article/2757710	存在句＋「着」双冗余，建议并入 J7 时体冗余；同类「进行着优化」「具备着一定优势」；「进行中」作状态标记不算
+对于在[^，。]{1,28}的	pattern	句法	甲	J6	high	R1正常 R3正常 R6病	对于在系统运行过程中产生的各类临时数据的高效清理机制	https://cloud.tencent.cn/developer/article/2757710	定语叠三层以上；法律条文、专利权利要求的必要限定不算
+主要表现为	pattern	句法	甲	NEW	mid	R1正常 R6病	我们发现该组件存在性能瓶颈，主要表现为响应时间显著增加	https://cloud.tencent.cn/developer/article/2757710	英文 which/that 从句硬译，建议立「从句硬译」规则；真实列举两三项事实的「主要表现为」可留
+从而[^，。]{0,10}了	pattern	句法	甲	J7	mid	R1正常 R6病	从而为用户提供了更好的体验	https://cloud.tencent.cn/developer/article/2757710	thus 直译＋「了」把结果说成既成事实；有可核实的因果链时可留；民间观察
+成功地[^，。]{0,8}	pattern	词法	甲	NEW	mid	R3正常 R6病	我们成功地降低了系统的连接压力。	https://cloud.tencent.cn/developer/article/2757710	英文 -ly 副词直译兼自我表扬，同类「有效地」「显著地」；「有效率达」的统计学用法不算
+赋能	word	词法	乙	Y1	high	R2正常 R6病 R3病	本周围绕用户增长，持续赋能核心业务，构建运营闭环。	http://mp.weixin.qq.com/s?__biz=MzcwNDQxMjYwMg==&mid=2247484050&idx=1&sn=f956b33c5fa088fdafa758d1d16cf839	管理学 empowerment 有实义；技术文「使能」是另一概念。判据：能否答出「赋能给谁、赋了什么能」
+抓手	word	词法	乙	Y1	high	R2正常 R6病	“赋能”“闭环”“抓手”“拉通”“对齐颗粒度”——这些词不是不能写，是你得先有实事再套。	http://mp.weixin.qq.com/s?__biz=MzcwNDQxMjYwMg==&mid=2247484050&idx=1&sn=f956b33c5fa088fdafa758d1d16cf839	大厂话术外溢；政府／企业公文里是行话而非 AI 痕迹，须看文体
+闭环	word	词法	乙	Y1	high	R3正常 R2正常 R6病	形成闭环管理，持续迭代升级	https://www.toutiao.com/article/7697548727254270500/	控制论 closed loop 是术语；职场「形成闭环」多半空转。判据：能否说出反馈从哪来、怎么修正
+全链路	word	词法	乙	Y1	high	R3正常 R6病	AI Agent 打通了科研全链路，形成了生产力飞轮。	https://lianxh.cn/details/1786.html	有明确起止环节（从检索到校对）时可留；与「打通」「飞轮」连用是强化信号
+底座	word	词法	乙	Y1	mid	R3正常 R6病	RAG 是知识库问答的底座。	https://lianxh.cn/details/1786.html	指基础模型／算力平台／协议层时是可用术语；万物皆底座即失去信息量；民间观察
+楔子	word	词法	乙	Y1	mid	R7正常 R1病 R3病	先讲一个楔子。	https://lianxh.cn/details/1786.html	叙事文体的「楔子」是固有体裁名；在研究报告、论文里出现才是空转；民间观察
+张力	word	词法	乙	Y1	mid	R1正常 R6病	这里存在一种张力。	https://lianxh.cn/details/1786.html	学术「理论张力」「制度张力」有实指；泛用成「效率与质量的张力」即制造深刻感；民间观察
+稳了	word	词法	乙	Y1	mid	R8正常 R6病	有了这套流程，论文写作就稳了。	https://lianxh.cn/details/1786.html	互联网流量腔；口语评价（这事稳了）属正常；民间观察
+降维打击	word	词法	乙	Y1	mid	R6正常 R1病 R3病	我是在跟你讲数据、讲算法、讲降维打击。	https://zhuanlan.zhihu.com/p/2029884087368971483	《三体》本义与军事语境不算；此处与顿号并列同现，是复合信号；民间观察
+对于[^，。]{1,25}具有重要意义	pattern	句法	乙	Y2	high	R2正常 R6病 R7病	对于系统性能的提升具有重要意义	https://cloud.tencent.cn/developer/article/2757710	抽象名词作主语＋评价性谓语，全句无施事；悼词、表彰、贺信文体属正常
+在[^，。]{1,12}的今天	pattern	句法	乙	Y3	mid	R6正常 R4正常 R1病	在2026年的今天，农业已经变成了一场高烈度、不对称的“信息战”。	https://zhuanlan.zhihu.com/p/2029884087368971483	真实历史回溯（在1990年的今天）不算；须与「已经变成」「早已」同现
+当[^，。]{1,12}时，[^，。]{0,8}你会发现	pattern	句法	乙	Y3	mid	R5正常 R3正常 R6病	当你打开它时，你会发现…	https://blog.csdn.net/yaodong379/article/details/155646466	when 从句直译；操作步骤写成「打开后即可看到」属正常；民间观察
+在新形势新任务下	word	句法	乙	Y3	high	R2正常 R6病	开头是“在新形势新任务下”，中间是“既是……也是……更是……”	https://www.toutiao.com/article/7697548727254270500/	万能背景框架，不交代任何具体变化；须与具体形势描述同现才算病
+系统性[^，。]{0,8}	pattern	词法	乙	Y4	mid	R2正常 R3正常 R6病	我系统性地整理了一下文档	http://mp.weixin.qq.com/s?__biz=MzUyMzkwMjg3MQ==&mid=2247484687&idx=1&sn=e1cc0501b277d908e9b31aac70328db3	「性」后缀壳；有方法论文档或评估体系支撑时可留；民间观察
+随着[^，。]{1,16}的发展	pattern	句法	乙	Y6	mid	R1正常 R4正常 R6病	随着生活节奏加快，早餐越来越被忽视	https://www.toutiao.com/article/7693425440702186034/	统计文、经济文里的真实趋势描述不算；开头位＋紧接价值判断才是信号。原例为「随着…加快」变体
+在这个快节奏的时代	word	篇章	乙	Y6	mid	R6正常 R1病 R3病	在这个快节奏的时代，越来越多的人开始关注健康生活方式。	https://implexa.ai/s/clawhub/content-polisher-zh	公众号人类作者也写，故只给 mid；与「越来越」同现时可疑度上升；民间观察
+近年来，[^。]{1,15}取得了显著进展	pattern	篇章	乙	Y6	mid	R1正常 R4正常 R6病	近年来，XX领域取得了显著进展…	https://blog.csdn.net/why_not_do_som/article/details/158740747	综述交代研究脉络属正常；原文为模板式举例，XX 为占位符；民间观察
+您	word	语用	乙	NEW	mid	R8正常 R2正常 R6病	有的模型坚持用「我们」「您」这些客服式的代词	https://sspai.com/post/99838	客服语域塌缩，建议立「客服人称」规则；正式函件、敬语场景的「您」是规范
+首先[^。]{0,40}其次[^。]{0,40}最后	pattern	篇章	丙	B2	high	R2正常 R3正常 R6病 R7病	首先，小红书的流量分发逻辑是……其次，你需要关注三个核心指标……	http://mp.weixin.qq.com/s?__biz=MjM5ODU2MzM0MQ==&mid=2247484158&idx=1&sn=b628d4f4aa85bab15a89833602ef527e	公文序数体、教程步骤属正常；再叠「此外」「同时」可疑度显著上升
+值得注意的是	word	篇章	丙	B2	high	R1正常 R6病	划到第二屏是"值得注意的是"……	https://m.weibo.cn/status/5355774026975608	前文确有反预期事实时是正常转折提示；空转时删掉不影响信息
+综上所述	word	篇章	丙	B2	high	R1正常 R2正常 R6病	综上所述，这次调整有重要意义	https://post.smzdm.com/p/a6zwenq0/	学术论文、法律文书的收束属规范；日常写作中多为凑数
+值得一提的是	word	篇章	丙	B2	high	R1正常 R6病	“值得一提的是”“综上所述”“总而言之”——这些词一出现，活人感立刻归零。	http://mp.weixin.qq.com/s?__biz=MzcwNDQxMjYwMg==&mid=2247484050&idx=1&sn=f956b33c5fa088fdafa758d1d16cf839	与「值得注意的是」同族，可合并统计；真实补充信息时可留一次
+让我们[^，。]{1,18}	pattern	篇章	丙	B1	mid	R6正常 R2正常 R1病	结尾写了一句"让我们拭目以待"	https://blog.csdn.net/qq_24252865/article/details/158537986	演讲、倡议书、社论里属正常修辞；技术文、周报里出现即可疑；民间观察
+好的，以下是	word	篇章	丙	B1	high	R8正常 R6病 R1病	好的，以下是针对少数派平台的特点写的某某主题文章	https://sspai.com/post/99838	chatbot 元话语原样残留，正常人类投稿不会出现；对话中回答提问属正常
+不是[^，。]{1,15}，而是[^，。]{1,15}	pattern	修辞	丙	B3	mid	R6正常 R7正常 R3病	这从来不是谁更先进的问题，而是谁换赛道更早。	https://zhuanlan.zhihu.com/p/2029884087368971483	中文固有修辞，全篇用一次属好文笔；连用或与破折号搭配才可疑
+你以为[^。]{1,20}？不，	pattern	修辞	丙	B3	high	R6正常 R5正常 R1病 R3病	你以为你在跟土地打交道？不，你是在跟全球气候系统的全面崩溃赛跑。	https://zhuanlan.zhihu.com/p/2029884087368971483	DeepSeek 系高发；科普答疑中真实纠正误解时可留
+当[^，。]{1,18}还在[^，。]{1,18}时，[^，。]{1,18}已经	pattern	修辞	丙	B3	high	R6正常 R1病 R3病	当德国的工程师还在验证传统底盘调校时，中国的工程师已经在做整车OTA和远程迭代。	https://zhuanlan.zhihu.com/p/2029884087368971483	假对比；两边都有同期可核实数据时成立，否则只是修辞
+如果说[^，。]{1,15}，那么	pattern	修辞	丙	B3	mid	R6正常 R1正常 R3病	如果说德国工程师擅长把机器做到极致，那么中国工程师更擅长换掉这台机器。	https://zhuanlan.zhihu.com/p/2029884087368971483	类比推理本身合法；一段内出现两次以上即模板化；民间观察
+不只是[^，。]{1,12}，更是	pattern	修辞	丙	B4	mid	R6正常 R1病 R4病	「不只是 X，更是 Y」的拔高句式	https://post.smzdm.com/p/a6zwenq0/	与「不是…而是」同族，都靠否定前半句抬后半句；原帖列为拔高句式；民间观察
+站在[^，。]{1,8}的门槛上	pattern	修辞	丙	B4	high	R2正常 R6正常 R1病	我们正站在智能文明的门槛上，见证一场重塑生产力与认知边界的革命。	https://zhuanlan.zhihu.com/p/2029884087368971483	时代叙事拔高；有具体时间地点锚点时可留
+未来可期	word	修辞	丙	B4	mid	R8正常 R6正常 R1病	未来可期"、"这代表了向正确方向迈出的重要一步	https://blog.csdn.net/qq_24252865/article/details/158537986	维基 24 条「万能结尾」的中文对应；祝福、贺词场景属正常；民间观察
+愿你我都能	word	修辞	丙	B4	mid	R8正常 R6正常 R1病	“愿你我都能……”“遇见更好的自己”	https://post.smzdm.com/p/a6zwenq0/	祝福语、跨年文案里属正常；技术文／周报段末挂金句才是信号；民间观察
+以更加[^，。]{0,6}的	pattern	修辞	丙	B4	mid	R2正常 R6病 R1病	以更加饱满的热情、更加昂扬的斗志、更加务实的作风	https://www.toutiao.com/article/7697548727254270500/	三个「更加」连排才可疑；单个「更加」是普通程度副词。公文本身由人撰写，须看是否三个连用
+——	word	篇章	丙	B5	low	R7正常 R6正常	这不是一次普通的下跌——而是结构性的变化。	https://zhuanlan.zhihu.com/p/2029884087368971483	单处破折号是正常中文标点；同一段超过一处、或专用于「不是…而是」才可疑
+加粗小标题	word	篇章	丙	B6	low	R3正常 R6正常 R7病 R1病	每个条目前面都有一个加粗的标题，有一个冒号	https://pwa.sspai.com/post/98509	技术文档、清单体、README 里属规范；散文与评论里成排出现才可疑
+[0-9]️⃣	pattern	篇章	丙	NEW	mid	R6正常 R1病 R3病	1️⃣ 钩子：一句话说中痛点	https://m.weibo.cn/status/5355774026975608	emoji 当项目符号，建议立 B7「符号化列表」；小红书原生语境有真实用法，故只给 mid
+[✨😭🙏🔥💡✅❌🚀]	pattern	篇章	丙	NEW	mid	R6正常 R8正常 R1病 R3病	emoji表情当标点符号用，恨不得每句话后面都跟个✨😭🙏	http://mp.weixin.qq.com/s?__biz=MzkxMjc1NzA1NA==&mid=2247483843&idx=1&sn=616e6ad88e54782632930bb71522a37e	建议并入 B7；单句一个 emoji 属平台习惯，句句都挂才是信号；民间观察
+[^、，。]{2,6}、[^、，。]{2,6}、[^、，。]{2,6}	pattern	修辞	丙	NEW	mid	R2正常 R6病 R1病	既要保质量、又要赶进度、还要顾体验	https://post.smzdm.com/p/a6zwenq0/	三项并列凑数，建议立 B8「三连强迫」；真实三项枚举（早中晚、省市县）不算；技术清单三项也正常
+‘[^’]{2,8}’	pattern	语用	丙	NEW	mid	R1正常 R6病	这其实就是一种‘路径依赖’”。 本质上是‘供需错配"。	https://zhuanlan.zhihu.com/p/2029884087368971483	引号包围普通词，建议立 B9「术语加引号」；文献引用、术语首次定义、反讽用法不算；民间观察

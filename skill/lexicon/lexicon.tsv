@@ -1,0 +1,234 @@
+term	type	level	axis	rule	conf	register_scope	example	source	note
+进入…状态	pattern	词法	甲	J1	high	R3正常 R9可容忍 R7病	“睡着了”要说成“进入了睡眠状态”	https://mooc1.chaoxing.com/ztnodedetailcontroller/visitnodedetail?courseId=83518325&knowledgeId=83518386	技术文档描述状态机时正常；日常动作这样写是抽象名词化
+成功地[^，。]{0,8}	pattern	词法	甲	NEW	mid	R3正常 R6病	我们成功地降低了系统的连接压力。	https://cloud.tencent.cn/developer/article/2757710	英文 -ly 副词直译兼自我表扬，同类「有效地」「显著地」；「有效率达」的统计学用法不算
+之一	word	词法	甲	Y5	mid	R9正常 R1正常 R4正常 R7可容忍	刘伶是竹林七闲之一。	https://mooc1.chaoxing.com/ztnodedetailcontroller/visitnodedetail?courseId=83518325&knowledgeId=83518386	本义列举成员，已通用属正常；与「最好的之一」「原因之一」叠加则弱化判断
+全链路	word	词法	乙	Y1	high	R3正常 R6病	AI Agent 打通了科研全链路，形成了生产力飞轮。	https://lianxh.cn/details/1786.html	有明确起止环节（从检索到校对）时可留；与「打通」「飞轮」连用是强化信号
+底层逻辑	word	词法	乙	Y1	high	R2可容忍 R6可容忍 R7病	底层逻辑是打通信息屏障，创建行业新生态。	https://news.ifeng.com/c/852SbnOEOvU	系统论中可用但须给出层次定义；泛化为「原因」的同义词即病
+打法	word	词法	乙	Y1	high	R2可容忍 R4可容忍 R7病	交付价值是在垂直领域采用复用打法达成持久收益。	https://news.ifeng.com/c/852SbnOEOvU	体育与军事语境正常；商业里替代「做法」是黑话
+抓手	word	词法	乙	Y1	high	R2正常 R6病	“赋能”“闭环”“抓手”“拉通”“对齐颗粒度”——这些词不是不能写，是你得先有实事再套。	http://mp.weixin.qq.com/s?__biz=MzcwNDQxMjYwMg==&mid=2247484050&idx=1&sn=f956b33c5fa088fdafa758d1d16cf839	大厂话术外溢；政府／企业公文里是行话而非 AI 痕迹，须看文体
+拉通	word	词法	乙	Y1	high	R2正常 R7病 R6可容忍	“拉通” —— 跟“对齐”差不多，把不认识的人拉到一个群里尴尬	https://k.sina.cn/article_5966885073_163a770d100101ph54.html	制造业指打通工序，正常；组织语境指「叫人对齐」是病
+沉淀	word	词法	乙	Y1	high	R2正常 R1可容忍 R7病	你以为“沉淀”=把经验总结成方法论。	https://k.sina.cn/article_5966885073_163a770d100101ph54.html	化学本义正常；指「积累经验并写成文档」是黑话，AI 爱用它替代「总结」
+爆款	word	词法	乙	Y1	high	R6正常 R4可容忍 R7病	按博主给的爆款文案公式	http://pub-zhtb.hizh.cn/a/202408/18/AP66c14617e4b083785a636028.html	电商运营里指高销量单品，行业内部正常；用于形容文章、课程、观点即营销腔
+糯叽叽	word	词法	乙	Y1	high	R6正常 R5可容忍 R7病	家人们，谁懂这一口糯叽叽的含金量	http://pub-zhtb.hizh.cn/a/202408/18/AP66c14617e4b083785a636028.html	方言拟声词，口语可用；进入食评替代质感描写即语言失语
+赋能	word	词法	乙	Y1	high	R2可容忍 R7病 R6可容忍	战略布局持续完善、体系建设稳步推进、赋能机制走深走实	https://m.163.com/dy/article_v5/L6F73TCD0556PH6C.html	述职与汇报文本中的固定搭配，本身合法；在产品说明或随笔里替代「支持」「帮助」即为病，语义已被抽空
+闭环	word	词法	乙	Y1	high	R3正常 R2正常 R6病	形成闭环管理，持续迭代升级	https://www.toutiao.com/article/7697548727254270500/	控制论 closed loop 是术语；职场「形成闭环」多半空转。判据：能否说出反馈从哪来、怎么修正
+限时秒杀	word	词法	乙	Y1	high	R6正常 R7病	直接点击首页的限时秒杀，就有9.9的iPhone12	https://www.meihua.info/article/4491767705093120	电商促销术语，促销页内正常；写入叙事文本即广告腔。《广告法》要求「限时」标明具体时限
+顶层设计	word	词法	乙	Y1	high	R2正常 R4可容忍 R7病	我们要重塑顶层设计	https://m.163.com/dy/article_v5/L6F73TCD0556PH6C.html	政策文件里有确定含义，指总体架构，正常；用于替代「计划」「方案」即病
+颗粒度	word	词法	乙	Y1	high	R3正常 R2可容忍 R7病	通过差异化和颗粒度达到引爆点	https://news.ifeng.com/c/852SbnOEOvU	数据分析领域指统计细分程度，合法；日常说「对齐颗粒度」替代「把细节说清楚」是病
+刷屏	word	词法	乙	Y1	mid	R4正常 R6正常 R7病	朋友圈肯定都被一句“给我一面国旗@微信官方”刷屏	https://www.zhipianbang.com/news/detail-381216.html	描述传播现象时正常；用于自我宣传「刷屏级」即营销腔
+复盘	word	词法	乙	Y1	mid	R2正常 R6可容忍 R7病	老板说“复盘一下”=❓	https://k.sina.cn/article_5966885073_163a770d100101ph54.html	围棋术语，正常；项目结束后总结经验也已通用；连两分钟的小事都要「复盘」是滥用
+对标	word	词法	乙	Y1	mid	R2正常 R4正常 R7病	就要时时对标对表	https://www.gdtzb.gov.cn/txzt/srgczybxgdjsxxjj/pljd/content/post_93226.html	公文里指对照标准自查，规范用法；商业文案里替代「模仿」甚至「抄袭」是病
+对齐	word	词法	乙	Y1	mid	R3正常 R2正常 R7病	“对齐” —— 白话：大家统一一下口径/借口，免得被老板问住。	https://k.sina.cn/article_5966885073_163a770d100101ph54.html	排版与机械领域指位置校准，正常；会议语境指「达成一致」是黑话，AI 常把它当万能衔接词
+底座	word	词法	乙	Y1	mid	R3正常 R6病	RAG 是知识库问答的底座。	https://lianxh.cn/details/1786.html	指基础模型／算力平台／协议层时是可用术语；万物皆底座即失去信息量；民间观察
+张力	word	词法	乙	Y1	mid	R1正常 R6病	这里存在一种张力。	https://lianxh.cn/details/1786.html	学术「理论张力」「制度张力」有实指；泛用成「效率与质量的张力」即制造深刻感；民间观察
+标杆	word	词法	乙	Y1	mid	R2正常 R4正常 R7病	以上率下作出了示范，树立了标杆	https://www.gdtzb.gov.cn/txzt/srgczybxgdjsxxjj/pljd/content/post_93226.html	公文与管理文本正常；写成「行业标杆」却不给比较维度是空誉
+楔子	word	词法	乙	Y1	mid	R7正常 R1病 R3病	先讲一个楔子。	https://lianxh.cn/details/1786.html	叙事文体的「楔子」是固有体裁名；在研究报告、论文里出现才是空转；民间观察
+水灵灵	word	词法	乙	Y1	mid	R7正常 R6正常 R1病 R2病	她就这么水灵灵地走来了	http://pub-zhtb.hizh.cn/a/202408/18/AP66c14617e4b083785a636028.html	本义形容鲜嫩，正常；修饰「换头像」「上班」等无关动作是2024年营销热梗
+沉浸式	word	词法	乙	Y1	mid	R6正常 R1可容忍 R7病	沉浸式化妆、沉浸式追剧、沉浸式干饭、沉浸式上课	https://www.zhipianbang.com/index.php/news/detail-261190.html	戏剧与 VR 领域有技术含义，正常；修饰一切日常行为是流量词滥用
+生态位	word	词法	乙	Y1	mid	R1正常 R6可容忍 R7病	闭环、抓手、颗粒度、底层逻辑、生态位、价值链、深水区	https://m.163.com/dy/article_v5/L6F73TCD0556PH6C.html	生态学专业术语，学术文本正常；商业文案指「市场位置」须具体化，否则是伪术语
+的(步伐|进程|关系|水平|状况|力度|程度)	pattern	词法	乙	Y1	mid	R1可容忍 R3病 R7病	我们应该加快经济改革的步伐。	humanize XH 6	尾巴名词：动作藏在定语里。公文里「加大力度」已体式化，R2 可留
+稳了	word	词法	乙	Y1	mid	R8正常 R6病	有了这套流程，论文写作就稳了。	https://lianxh.cn/details/1786.html	互联网流量腔；口语评价（这事稳了）属正常；民间观察
+链路	word	词法	乙	Y1	mid	R3正常 R7病 R6可容忍	亮点是载体，优势是链路。	https://news.ifeng.com/c/852SbnOEOvU	通信与供应链指实际通路，正常；抽象成「流程」时语义空转
+降维打击	word	词法	乙	Y1	mid	R6正常 R1病 R3病	我是在跟你讲数据、讲算法、讲降维打击。	https://zhuanlan.zhihu.com/p/2029884087368971483	《三体》本义与军事语境不算；此处与顿号并列同现，是复合信号；民间观察
+高级感	word	词法	乙	Y1	mid	R6正常 R1可容忍 R7病	用术语编织高级感认同	https://www.xiaoyuzhoufm.com/episode/68fc1d700156720321ed655f	设计、摄影领域指具体的质感指标，正常；不指明指标只给评价即空词
+全网	word	词法	乙	Y4	mid	R6正常 R4可容忍 R7病	全网第一、销量第一、排名第一	https://www.chuanboyi.net/article/675.html	「全网」作范围限定须可核验；「全网第一」属广告法绝对化用语，此例为禁用词清单，民间归纳
+系统性[^，。]{0,8}	pattern	词法	乙	Y4	mid	R2正常 R3正常 R6病	我系统性地整理了一下文档	http://mp.weixin.qq.com/s?__biz=MzUyMzkwMjg3MQ==&mid=2247484687&idx=1&sn=e1cc0501b277d908e9b31aac70328db3	「性」后缀壳；有方法论文档或评估体系支撑时可留；民间观察
+boasts	word	词法	甲	J1	high	R1正常 其它档须谨慎	（词表项，无例句）	Juzek & Ward 2025, COLING 2025, 2025.coling-main.426, Appendix A (arXiv:2412.11385)	英文侧实证；+918%；词典项，无论文例句
+boasts?	word	词法	甲	J1	high	R4病 R6病	boasts (meaning "has")	https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing#High_density_of_AI_vocabulary_words	中文对应「坐拥」「拥有」；示例为该页 watch-list 原串
+delved	word	词法	甲	J1	high	R1正常 其它档须谨慎	（词表项，无例句）	Juzek & Ward 2025, COLING 2025, 2025.coling-main.426, Appendix A (arXiv:2412.11385)	英文侧实证；+2240%（0.12→2.90）；词典项，无论文例句
+delves	word	词法	甲	J1	high	R1正常 其它档须谨慎	This study delves into the impacts of maintaining mean arterial blood pressure	Juzek & Ward 2025, COLING 2025, 2025.coling-main.426, Appendix A (arXiv:2412.11385)	英文侧实证；PubMed 摘要 opm 0.21→14.38，增幅 6697%；Kobak 同词 r=28.0
+delving	word	词法	甲	J1	high	R1正常 其它档须谨慎	as a tool for delving into the intricate mechanisms of c-di-GMP signaling	Juzek & Ward 2025, COLING 2025, 2025.coling-main.426, Appendix A (arXiv:2412.11385)	英文侧实证；+1817%（0.12→2.38）
+garnered	word	词法	甲	J1	high	R1正常 其它档须谨慎	（词表项，无例句）	Juzek & Ward 2025, COLING 2025, 2025.coling-main.426, Appendix A (arXiv:2412.11385)	英文侧实证；+437%；词典项，无论文例句
+showcases	word	词法	甲	J1	high	R1正常 其它档须谨慎	This paper showcases a novel approach for targeting and disrupting c-di-GMP signaling pathways	Juzek & Ward 2025, COLING 2025, 2025.coling-main.426, Appendix A (arXiv:2412.11385)	英文侧实证；+422%
+showcasing	word	词法	甲	J1	high	R1正常 其它档须谨慎	（词表项，无例句）	Kobak et al. 2025, Sci Adv 11(27): eadt3813, Sec.2.1/2.2 (arXiv:2406.07016)	英文侧实证；2024 年 r=10.7；词典项，无论文例句
+underscores	word	词法	甲	J1	high	R1正常 其它档须谨慎	（词表项，无例句）	Juzek & Ward 2025, COLING 2025, 2025.coling-main.426, Appendix A (arXiv:2412.11385)	英文侧实证；+904%（4.50→45.19）；Kobak r=13.8；词典项，无论文例句
+underscoring	word	词法	甲	J1	high	R1正常 其它档须谨慎	（词表项，无例句）	Juzek & Ward 2025, COLING 2025, 2025.coling-main.426, Appendix A (arXiv:2412.11385)	英文侧实证；+537%；词典项，无论文例句
+aligns	word	词法	甲	J1	mid	R1正常 其它档须谨慎	（词表项，无例句）	Juzek & Ward 2025, COLING 2025, 2025.coling-main.426, Appendix A (arXiv:2412.11385)	英文侧实证；+267%；词典项，无论文例句
+bolster	word	词法	甲	J1	mid	R1正常 其它档须谨慎	（词表项，无例句）	Kobak et al. 2025, Sci Adv 11(27): eadt3813, Fig. S6 (arXiv:2406.07016)	英文侧实证；291 词表之一；词典项，无论文例句
+comprehending	word	词法	甲	J1	mid	R1正常 其它档须谨慎	and highlight the advancements in comprehending the relationship between MABP and TSCI recovery	Juzek & Ward 2025, COLING 2025, 2025.coling-main.426, Appendix A (arXiv:2412.11385)	英文侧实证；+899%；学术文中 comprehend 属正常，分词化+抽象宾语才可疑
+elucidate	word	词法	甲	J1	mid	R1正常 其它档须谨慎	（词表项，无例句）	Kobak et al. 2025, Sci Adv 11(27): eadt3813, Fig. S6 (arXiv:2406.07016)	英文侧实证；291 词表之一；词典项，无论文例句
+emphasizing	word	词法	甲	J1	mid	R1正常 其它档须谨慎	（词表项，无例句）	Juzek & Ward 2025, COLING 2025, 2025.coling-main.426, Appendix A (arXiv:2412.11385)	英文侧实证；+397%；词典项，无论文例句
+encompasses	word	词法	甲	J1	mid	R1正常 其它档须谨慎	（词表项，无例句）	Kobak et al. 2025, Sci Adv 11(27): eadt3813, Fig. S6 (arXiv:2406.07016)	英文侧实证；291 词表之一；词典项，无论文例句
+enhancing	word	词法	甲	J1	mid	R1正常 其它档须谨慎	（词表项，无例句）	Kobak et al. 2025, Sci Adv 11(27): eadt3813, Fig. S6 (arXiv:2406.07016)	英文侧实证；10 词集之一；词典项，无论文例句
+exhibited	word	词法	甲	J1	mid	R1正常 其它档须谨慎	（词表项，无例句）	Kobak et al. 2025, Sci Adv 11(27): eadt3813, Fig. S6 (arXiv:2406.07016)	英文侧实证；10 词集之一；词典项，无论文例句
+grapple	word	词法	甲	J1	mid	R1正常 其它档须谨慎	（词表项，无例句）	Reinhart et al. 2025, PNAS 122: e2422455122, Table 1 (arXiv:2410.16107)	英文侧实证；4o-mini 131×，Llama 8B Instruct 24×；词典项，无论文例句
+harness	word	词法	甲	J1	mid	R1正常 其它档须谨慎	（词表项，无例句）	Kobak et al. 2025, Sci Adv 11(27): eadt3813, Fig. S6 (arXiv:2406.07016)	英文侧实证；291 词表之一；词典项，无论文例句
+ignite	word	词法	甲	J1	mid	R1正常 其它档须谨慎	（词表项，无例句）	Reinhart et al. 2025, PNAS 122: e2422455122, Table 1 (arXiv:2410.16107)	英文侧实证；122×；词典项，无论文例句
+surpasses	word	词法	甲	J1	mid	R1正常 其它档须谨慎	These findings surpass previous knowledge	Juzek & Ward 2025, COLING 2025, 2025.coling-main.426, Appendix A (arXiv:2412.11385)	英文侧实证；+368%
+surpassing	word	词法	甲	J1	mid	R1正常 其它档须谨慎	（词表项，无例句）	Juzek & Ward 2025, COLING 2025, 2025.coling-main.426, Appendix A (arXiv:2412.11385)	英文侧实证；+667%；词典项，无论文例句
+unravel	word	词法	甲	J1	mid	R1正常 其它档须谨慎	（词表项，无例句）	Reinhart et al. 2025, PNAS 122: e2422455122, Table 1 (arXiv:2410.16107)	英文侧实证；83×；词典项，无论文例句
+utilizes	word	词法	甲	J1	mid	R1正常 其它档须谨慎	（词表项，无例句）	Kobak et al. 2025, Sci Adv 11(27): eadt3813, Fig. S6 (arXiv:2406.07016)	英文侧实证；291 词表之一；use 的拉丁化替代；词典项，无论文例句
+[A-Za-z]{2,}-[A-Za-z]{2,}	pattern	词法	甲	J6	mid	R3正常 R4正常 R6病	a Wikipedia-style article	https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing#Collaborative_communication	中文无对应（英文复合形容词连字符）；民间观察：Reddit 称其密度异常
+the [a-z]+ [a-z]+ment of	pattern	词法	甲	NEW	high	R1病 R4病 R6病	the performative enactment of subjectivity	https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing#Negative_parallelisms	名词化（有实证：其密度是机器文本检测特征）；中文对应「…的实施/…的进行」；同族 -tion/-ance/-ence
+camaraderie	word	词法	乙	NEW	high	R7正常 其它档可疑	The camaraderie was palpable.	Reinhart et al. 2025, PNAS 122: e2422455122, Table 1 (arXiv:2410.16107)	英文侧实证；GPT-4o 使用率 162×人类，4o-mini 171×；语域错位：文学词入非文学文体
+palpable	word	词法	乙	NEW	high	R7正常 其它档可疑	The camaraderie was palpable.	Reinhart et al. 2025, PNAS 122: e2422455122, Table 1 (arXiv:2410.16107)	英文侧实证；95×（4o-mini 145×，Llama 70B Instruct 47×）
+cacophony	word	词法	乙	NEW	mid	R7正常 其它档可疑	（词表项，无例句）	Reinhart et al. 2025, PNAS 122: e2422455122, Table 1 (arXiv:2410.16107)	英文侧实证；89×；词典项，无论文例句
+fleeting	word	词法	乙	NEW	mid	R7正常 其它档可疑	（词表项，无例句）	Reinhart et al. 2025, PNAS 122: e2422455122, Table 1 (arXiv:2410.16107)	英文侧实证；84×（4o-mini 124×）；词典项，无论文例句
+solace	word	词法	乙	NEW	mid	R7正常 其它档可疑	（词表项，无例句）	Reinhart et al. 2025, PNAS 122: e2422455122, Table 1 (arXiv:2410.16107)	英文侧实证；95×；词典项，无论文例句
+unease	word	词法	乙	NEW	mid	R7正常 其它档可疑	（词表项，无例句）	Reinhart et al. 2025, PNAS 122: e2422455122, Table 1 (arXiv:2410.16107)	英文侧实证；Llama 70B Instruct 63×，Llama 8B Instruct 101×；词典项，无论文例句
+unspoken	word	词法	乙	NEW	mid	R7正常 其它档可疑	（词表项，无例句）	Reinhart et al. 2025, PNAS 122: e2422455122, Table 1 (arXiv:2410.16107)	英文侧实证；102×；词典项，无论文例句
+crucial	word	词法	乙	Y1	high	R1病 R4病 R6病	landscape, foster, testament, enhance, crucial	https://www.beutlerink.com/blog/how-to-spot-ai-writing	中文对应「至关重要」；紧急通告中正常｜人工裁决
+delve	word	词法	乙	Y1	high	R1病 R4病 R6病 R9病	prefer to delve into the bizarre prose of the machine	https://www.nytimes.com/2025/12/03/magazine/chatbot-writing-style.html	中文对应「深入探讨」，应改为「看」「说清」；有实证：ACL 2025 记其词频被点名后骤降｜人工裁决
+interplay	word	词法	乙	Y1	high	R1正常 其它档须谨慎	the intricate interplay between [...] and [...]	Kobak et al. 2025, Sci Adv 11(27): eadt3813, Fig. S6 (arXiv:2406.07016)	英文侧实证；291 词表之一；常与 intricate 搭配成假精密短语
+intricacies	word	词法	乙	Y1	high	R1正常 其它档须谨慎	we delve into the intricacies of [...]	Juzek & Ward 2025, COLING 2025, 2025.coling-main.426, Appendix A (arXiv:2412.11385)	英文侧实证；+773%；亦在 Kobak 291 词表；假精密度抽象名词
+intricate	word	词法	乙	Y1	high	R1病 R6病	overuse certain terms like "delve" and "intricate."	https://arxiv.org/abs/2508.01930	中文对应「错综复杂」「精妙」；有实证：LHF 训练偏好直接抬高该词频率
+meticulously	word	词法	乙	Y1	high	R1正常 其它档须谨慎	By meticulously delving into the intricate web	Kobak et al. 2025, Sci Adv 11(27): eadt3813, Fig. S6 (arXiv:2406.07016)	英文侧实证；291 词表之一；Gray 2024 报 2023 年该词频率约 2 倍
+next level	pattern	词法	乙	Y1	high	R6正常 R7病	XXX已经next level了……	http://pub-zhtb.hizh.cn/a/202408/18/AP66c14617e4b083785a636028.html	中英混搭的流量句式；正常双语文本与技术文本中不算
+pivotal	word	词法	乙	Y1	high	R1正常 其它档须谨慎	A comprehensive grasp of the intricate interplay between [...] and [...] is pivotal for effective therapeutic strategies.	Kobak et al. 2025, Sci Adv 11(27): eadt3813, Fig. S6 (arXiv:2406.07016)	英文侧实证；291 词表之一；Liang et al. 2024 列为 LLM 首选词｜人工裁决
+realm	word	词法	乙	Y1	high	R1正常 其它档须谨慎	（词表项，无例句）	Juzek & Ward 2025, COLING 2025, 2025.coling-main.426, Appendix A (arXiv:2412.11385)	英文侧实证；+381%；Liang et al. 2024 亦列为 LLM 首选词；词典项，无论文例句
+tapestry	word	词法	乙	Y1	high	R2病 R6病 R7病	the tapestry of human experience	https://www.nytimes.com/2025/12/03/magazine/chatbot-writing-style.html	中文对应「绚丽画卷」「交织」；仅指织物时不算病
+testament	word	词法	乙	Y1	high	R2病 R6病 R7病	tapestry, pivotal, underscore, landscape, foster, testament	https://www.beutlerink.com/blog/how-to-spot-ai-writing	中文对应「…的见证」「彰显了」；悼词碑铭另论
+underscore	word	词法	乙	Y1	high	R2病 R4病 R6病	it only underscores the question	https://www.nytimes.com/2025/12/03/magazine/chatbot-writing-style.html	中文对应「凸显」「印证」；乐谱义不算病｜人工裁决
+vibrant	word	词法	乙	Y1	high	R4病 R6病 R7病	a vibrant town with a rich cultural heritage and	https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing#Promotional_and_advertisement-like_language	中文对应「充满活力」；招商与文旅文案已成套话｜人工裁决
+align with	word	词法	乙	Y1	mid	R2正常 R6病	align with	https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing#High_density_of_AI_vocabulary_words	中文对应「与…保持一致」；公文中有实义
+avenues	word	词法	乙	Y1	mid	R1正常 其它档须谨慎	（词表项，无例句）	Kobak et al. 2025, Sci Adv 11(27): eadt3813, Fig. S6 (arXiv:2406.07016)	英文侧实证；291 词表之一；复数抽象名词；词典项，无论文例句
+burgeoning	word	词法	乙	Y1	mid	R1正常 其它档须谨慎	（词表项，无例句）	Kobak et al. 2025, Sci Adv 11(27): eadt3813, Fig. S6 (arXiv:2406.07016)	英文侧实证；291 词表之一；词典项，无论文例句
+foster(ing)?	word	词法	乙	Y1	mid	R1正常 R2正常 R6病	landscape, foster, testament, enhance	https://www.beutlerink.com/blog/how-to-spot-ai-writing	中文对应「培育」「促进」；政策文本有实义
+garner	word	词法	乙	Y1	mid	R4正常 R6病	garner	https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing#High_density_of_AI_vocabulary_words	中文对应「获得」「收获」；示例为 watch-list 原串
+robust	word	词法	乙	Y1	mid	R1正常 R3正常 R6病	seamless(ly) · robust · navigate the landscape	https://github.com/ItsssssJack/SlopMonster/blob/main/references/signs-of-ai-writing.md	中文对应「稳健」「健壮」；技术文档有实义时正常
+seamless	word	词法	乙	Y1	mid	R1正常 其它档须谨慎	（词表项，无例句）	Kobak et al. 2025, Sci Adv 11(27): eadt3813, Fig. S6 (arXiv:2406.07016)	英文侧实证；291 词表之一（style）；词典项，无论文例句
+advancements	word	词法	乙	Y2	high	R1正常 其它档须谨慎	highlight the advancements in comprehending the relationship	Juzek & Ward 2025, COLING 2025, 2025.coling-main.426, Appendix A (arXiv:2412.11385)	英文侧实证；+278%；复数抽象名词作宾语
+landscape	word	词法	乙	Y2	high	R2病 R6病	evolving landscape	https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing#Undue_emphasis_on_significance,_legacy,_and_broader_trends	中文对应「格局」「版图」；地理学本义不算病
+findings	word	词法	乙	Y2	mid	R1正常 其它档须谨慎	（词表项，无例句）	Kobak et al. 2025, Sci Adv 11(27): eadt3813, Sec.2.1/2.2 (arXiv:2406.07016)	英文侧实证；δ=0.041；词典项，无论文例句
+insights	word	词法	乙	Y2	mid	R1正常 其它档须谨慎	（词表项，无例句）	Kobak et al. 2025, Sci Adv 11(27): eadt3813, Fig. S6 (arXiv:2406.07016)	英文侧实证；10 词集之一；词典项，无论文例句
+potential	word	词法	乙	Y2	mid	R1正常 其它档须谨慎	（词表项，无例句）	Kobak et al. 2025, Sci Adv 11(27): eadt3813, Sec.2.1/2.2 (arXiv:2406.07016)	英文侧实证；δ=0.052，单该词即可推 5.2% 下界；词典项，无论文例句
+amidst	word	词法	乙	Y3	mid	R7正常 其它档可疑	（词表项，无例句）	Reinhart et al. 2025, PNAS 122: e2422455122, Table 1 (arXiv:2410.16107)	英文侧实证；100×（4o-mini 90×）；出现在 27% 的 GPT-4o 输出中；词典项，无论文例句
+across	word	词法	乙	Y3	low	R1正常 其它档须谨慎	（词表项，无例句）	Kobak et al. 2025, Sci Adv 11(27): eadt3813, Fig. S6 (arXiv:2406.07016)	英文侧实证；10 词集之一；介词，单独无判别力；词典项，无论文例句
+within	word	词法	乙	Y3	low	R1正常 其它档须谨慎	（词表项，无例句）	Kobak et al. 2025, Sci Adv 11(27): eadt3813, Fig. S6 (arXiv:2406.07016)	英文侧实证；10 词集之一；介词，单独无判别力；词典项，无论文例句
+valuable insights	word	词法	乙	Y4	mid	R2病 R6病	valuable insights	https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing#Superficial_analyses	中文对应「有价值的洞见」；须追问具体是什么
+versatility	word	词法	乙	Y4	mid	R1正常 其它档须谨慎	（词表项，无例句）	Kobak et al. 2025, Sci Adv 11(27): eadt3813, Fig. S6 (arXiv:2406.07016)	英文侧实证；291 词表之一；-ity 名词化壳；词典项，无论文例句
+groundbreaking	word	词法	丙	B4	high	R1正常 其它档须谨慎	（词表项，无例句）	Juzek & Ward 2025, COLING 2025, 2025.coling-main.426, Appendix A (arXiv:2412.11385)	英文侧实证；+330%；词典项，无论文例句
+comprehensive	word	词法	丙	B4	mid	R1正常 其它档须谨慎	this comprehensive chapter takes a deep dive	Kobak et al. 2025, Sci Adv 11(27): eadt3813, Fig. S6 (arXiv:2406.07016)	英文侧实证；2024 年高频 10 词集之一（集合 Δ=0.134）；学术综述中属正常
+imperative	word	词法	丙	B4	mid	R1正常 其它档须谨慎	（词表项，无例句）	Kobak et al. 2025, Sci Adv 11(27): eadt3813, Fig. S6 (arXiv:2406.07016)	英文侧实证；291 词表之一；词典项，无论文例句
+invaluable	word	词法	丙	B4	mid	R1正常 其它档须谨慎	（词表项，无例句）	Kobak et al. 2025, Sci Adv 11(27): eadt3813, Fig. S6 (arXiv:2406.07016)	英文侧实证；291 词表之一；词典项，无论文例句
+[“”‘’]	pattern	词法	丙	NEW	mid	R2病 R6病	“the performative enactment of subjectivity”	https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing	中文无对应（中文引号本就弯曲）；只在英文文本里作线索
+对[^，。]{1,12}进行[^，。]{1,8}	pattern	句法	甲	J1	high	R1正常 R3正常 R6病	通过对策略进行调整，实现了对转化率的提升	https://cloud.tencent.cn/developer/article/2757710	「对X进行Y」是英译中标志骨架；具体流程描述（对样本进行离心、对账目进行核对）属正常，关键看能否还原成单个动词
+进行了[^，。]{0,10}	pattern	句法	甲	J1	high	R1正常 R2正常 R6病	团队对此进行了深入分析	https://cloud.tencent.cn/developer/article/2757710	万能动词替代具体动词；有量词或明确施事支撑（进行了三次实验、我们做了三轮）可放行
+确保[^，。]{0,6}运行	pattern	句法	甲	J1	mid	R2正常 R3正常 R6病	确保系统稳定运行	https://cloud.tencent.cn/developer/article/2757710	ensure 直译，同类还有「确保落地」「确保稳定」；有明确责任主体和验收标准时属正常工程语言；民间观察
+通过[^，。]{1,20}方法[^。]{0,20}实现	pattern	句法	甲	J1	mid	待定	“通过 XX 方法实现了 XX 目标” 这类模板化句式	维普AIGC检测 产品页 fanyu.com/ProductService/wei_pu_a_i_g_c_jian_ce 及渠道稿 sohu.com/a/901384871_120466353	中文侧；厂商渠道稿口径，非官方白皮书；方法类论文中属常规表述
+受到…的影响	pattern	句法	甲	J3	mid	R1正常 R9正常 R7可容忍	她的寫作受到了張愛玲的影響。	https://github.com/yPin9/Learning-with-Claude/blob/main/soft_skills/chinese_writing/08-translatese.md	学术文本中正常；文学叙述里可改为「张爱玲影响了她的写作」
+被	pattern	句法	甲	J3	low	R9正常 R1正常 R3正常 R7可容忍	這個問題正在被解決。	https://github.com/yPin9/Learning-with-Claude/blob/main/soft_skills/chinese_writing/08-translatese.md	施事不明或须强调受事时正常；中文多用主动，泛用「被」是西化。仅作线索
+被[^，。]{1,8}为	pattern	句法	甲	J3	low	R1正常 R3正常 R6病	该问题被定位为配置错误	https://cloud.tencent.cn/developer/article/2757710	施事未知或不必说时正常；「被曝／官方称」是归因框架，不得按此规则删
+当…的时候	pattern	句法	甲	J5	high	R9可容忍 R1可容忍 R7病	當我走進房間的時候，我看見他。	https://github.com/yPin9/Learning-with-Claude/blob/main/soft_skills/chinese_writing/08-translatese.md	时间从句直译；中文说「我走进房间，看见他」即可，不必用「当……的时候」
+对于在[^，。]{1,28}的	pattern	句法	甲	J6	high	R1正常 R3正常 R6病	对于在系统运行过程中产生的各类临时数据的高效清理机制	https://cloud.tencent.cn/developer/article/2757710	定语叠三层以上；法律条文、专利权利要求的必要限定不算
+的的不休	pattern	句法	甲	J6	high	R9可容忍 R1可容忍 R4病 R7病	她不得不正视有关她的家族的几个尴尬的事实	https://mooc1.chaoxing.com/ztnodedetailcontroller/visitnodedetail?courseId=83518325&knowledgeId=83518386	三个「的」连缀；法律与公文为限定范围可保留，文学与评论中应拆句
+从而[^，。]{0,10}了	pattern	句法	甲	J7	mid	R1正常 R6病	从而为用户提供了更好的体验	https://cloud.tencent.cn/developer/article/2757710	thus 直译＋「了」把结果说成既成事实；有可核实的因果链时可留；民间观察
+存在着[^，。]{0,10}	pattern	句法	甲	J7	mid	R2正常 R6病	存在着诸多问题	https://cloud.tencent.cn/developer/article/2757710	存在句＋「着」双冗余，建议并入 J7 时体冗余；同类「进行着优化」「具备着一定优势」；「进行中」作状态标记不算
+作为…之一	pattern	句法	甲	J8	high	R9可容忍 R1病 R4病	作为竹林七闲之一的刘伶……	https://mooc1.chaoxing.com/ztnodedetailcontroller/visitnodedetail?courseId=83518325&knowledgeId=83518386	余光中判为恶性西化的畸婴；正常说法是「刘伶是竹林七闲之一」
+作为一个	word	句法	甲	J8	high	R2正常 R9可容忍 R7病	你作为一位大美人，实在不必花太多钱买化妆品了！	https://mooc1.chaoxing.com/ztnodedetailcontroller/visitnodedetail?courseId=83518325&knowledgeId=83518386	董桥所引批评对象；正式文书里用「作为+身份」界定身份正常，替代「是」时冗余
+(关于|对于)[^，。]{2,10}的(问题|事项|情况)	pattern	句法	甲	NEW	mid	R2可容忍 R1病 R7病	今天我们讨论有关交通的问题。	humanize XH 17	介词框架冗余，删「关于…的」直接说事
+主要表现为	pattern	句法	甲	NEW	mid	R1正常 R6病	我们发现该组件存在性能瓶颈，主要表现为响应时间显著增加	https://cloud.tencent.cn/developer/article/2757710	英文 which/that 从句硬译，建议立「从句硬译」规则；真实列举两三项事实的「主要表现为」可留
+该[^，。]{1,8}在于其	pattern	句法	甲	NEW	mid	R2正常 R1正常 R6病	该方案的优势在于其灵活性	https://cloud.tencent.cn/developer/article/2757710	建议立 甲 J9「该／其」直译 the/its；公文体「该同志」「该单位」「该公司」是中文固有用法，不算
+在[^，。]{2,8}方面	pattern	句法	甲	NEW	low	R1可容忍 R2正常 R7病	在安全管理方面仍需加强。	humanize XH 17	公文与学术里属体式；散文里是病
+对于…而言	pattern	句法	甲	Y3	high	R1正常 R2正常 R9正常 R6病	对于大龄相亲群体而言，沟通成本往往是首要障碍	https://www.xuezishi.net/why-is-the-phenomenon-of-westernised-chinese-so-prevalent-nowadays	介词框架起句；须限定范围时可用，每段都用则西化
+在很大程度上	word	句法	甲	Y3	mid	R1正常 R9可容忍 R7病	我们的努力程度很大程度上决定了我们的生存状态	https://musicupload.netease.com/m/program?id=909628761	须有程度依据；泛用作模糊限定是翻译腔
+对于[^，。]{1,25}具有重要意义	pattern	句法	乙	Y2	high	R2正常 R6病 R7病	对于系统性能的提升具有重要意义	https://cloud.tencent.cn/developer/article/2757710	抽象名词作主语＋评价性谓语，全句无施事；悼词、表彰、贺信文体属正常
+在新形势新任务下	word	句法	乙	Y3	high	R2正常 R6病	开头是“在新形势新任务下”，中间是“既是……也是……更是……”	https://www.toutiao.com/article/7697548727254270500/	万能背景框架，不交代任何具体变化；须与具体形势描述同现才算病
+在[^，。]{1,12}的今天	pattern	句法	乙	Y3	mid	R6正常 R4正常 R1病	在2026年的今天，农业已经变成了一场高烈度、不对称的“信息战”。	https://zhuanlan.zhihu.com/p/2029884087368971483	真实历史回溯（在1990年的今天）不算；须与「已经变成」「早已」同现
+当[^，。]{1,12}时，[^，。]{0,8}你会发现	pattern	句法	乙	Y3	mid	R5正常 R3正常 R6病	当你打开它时，你会发现…	https://blog.csdn.net/yaodong379/article/details/155646466	when 从句直译；操作步骤写成「打开后即可看到」属正常；民间观察
+具有…意义	pattern	句法	乙	Y4	high	R1病 R2可容忍 R4可容忍	具有重要的理论意义和实践意义	https://www.paperday.cn/news/4849.html	学位论文里几乎必写，属制度性套话；必须接具体知识增量，否则是空话
+随着[^，。]{1,16}的发展	pattern	句法	乙	Y6	mid	R1正常 R4正常 R6病	随着生活节奏加快，早餐越来越被忽视	https://www.toutiao.com/article/7693425440702186034/	统计文、经济文里的真实趋势描述不算；开头位＋紧接价值判断才是信号。原例为「随着…加快」变体
+stands? as an?	pattern	句法	甲	J1	high	R1病 R4病 R6病	stands as a vibrant town with a rich cultural heritage	https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing#Promotional_and_advertisement-like_language	中文对应「作为…存在」「是…的重要…」；有实证：2023 年学术文本 is/are 用量降逾一成；同族 serves as/functions as/operates as/acts as
+is characterized by	pattern	句法	甲	J1	mid	R1正常 R6病	is characterized by the extensive use of debt financing	https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing#Overuse_of_boldface	中文对应「具有…特征」；术语定义中正常
+is of interest to [a-z]+	pattern	句法	甲	J1	mid	R1病 R6病	is of interest to researchers and conservationists	https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing#Vague_attributions_and_overgeneralization_of_opinions	中文对应「引起学界关注」；与模糊归因叠加时最可疑
+refers to	pattern	句法	甲	J1	mid	R1正常 R6病	Catchment area (health) refers to the geographic area	https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing	中文对应「…是指」；辞书与条目首句正常
+(?i)\band the [a-z]+ of\b	pattern	句法	甲	J2	low	R1正常 其它档须谨慎	（词表项，无例句）	Reinhart et al. 2025, PNAS 122: e2422455122, Table 1 (arXiv:2410.16107)	英文侧实证；短语并列 1.9×（d=0.81）；句式项，论文未附例句；正则仅覆盖 and the X of 形；or/a 形同构，未入正则
+(?i)\bbeen [a-z]{3,}ed\b	pattern	句法	甲	J3	low	R1正常 其它档须谨慎	（词表项，无例句）	Reinhart et al. 2025, PNAS 122: e2422455122, Table 1 (arXiv:2410.16107)	英文侧实证但方向相反：GPT-4o 无施事被动仅人类 0.5×，不可单独作 AI 标记；句式项，论文未附例句；正则仅覆盖 been 形被动；is/was/were 形同构，未入正则
+was [a-z]+ed by	pattern	句法	甲	J3	low	R1正常 R3正常 R6病	was identified by	https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing#Undue_emphasis_on_significance,_legacy,_and_broader_trends	中文「被…」直译；were…by 同型；施事不明或不必说时正常
+, [a-z]{3,}ing\b[^.]*,	pattern	句法	甲	J6	mid	R1正常 其它档须谨慎	Bryan, leaning on his agility, dances around the ring, evading Show's heavy blows.	Reinhart et al. 2025, PNAS 122: e2422455122, Table 1 (arXiv:2410.16107)	英文侧实证；现在分词从句 5.3×（配对 Cohen d=1.38）；文学叙事中正常
+\b[a-z]+ heritage\b	pattern	句法	甲	J6	mid	R4病 R6病 R7病	a rich cultural heritage and a significant place	https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing#Promotional_and_advertisement-like_language	形容词堆叠＋抽象名词；中文对应「深厚的文化底蕴」；地方志中有实义
+(?i)\bthat [a-z]+ [a-z]+ is\b	pattern	句法	甲	J8	low	R1正常 其它档须谨慎	（词表项，无例句）	Reinhart et al. 2025, PNAS 122: e2422455122, Table 1 (arXiv:2410.16107)	英文侧实证；that 从句作主语 2.6×（d=0.77）；句式项，论文未附例句；正则仅覆盖 that+is 形；whether 引导及 was/remains 形同构，未入正则
+,\s[a-z]{4,}ing\b[^.]{0,45}	pattern	句法	甲	NEW	high	R1病 R4病 R6病	, creating a lively community within its borders	https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing#Superficial_analyses	分词状语：该页专列 present participle 结尾的浅层分析（有实证）；中文对应「…，营造出…氛围」；同族 enhancing/underscoring/ensuring/reflecting/fostering
+(?i)\b[a-z]{4,}[ts]ion\b	pattern	句法	甲	Y4	low	R1正常 其它档须谨慎	reduce deforestation, habitat destruction, and pollution	Reinhart et al. 2025, PNAS 122: e2422455122, Table 1 (arXiv:2410.16107)	英文侧实证；名词化 2.1×（d=1.23）；学术英语本就高名词化，需看密度；正则仅覆盖 -tion/-sion；-ment/-ity/-ness/-ance 同构后缀见本条说明，未入正则
+[Nn]estled within	pattern	句法	乙	Y3	high	R4病 R6病 R7病	Nestled within the breathtaking region of Gonder in Ethiopia	https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing#Promotional_and_advertisement-like_language	中文对应「坐落于…腹地」；within/nestled in the heart of 同型；游记中合法
+in the heart of	pattern	句法	乙	Y3	mid	R4正常 R6病	in the heart of	https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing#Promotional_and_advertisement-like_language	中文对应「位于…核心地带」
+不得不说	word	篇章	甲	B1	mid	R9正常 R6正常 R1病	我不得不说，这些学生给了我生命中最棒的经历之一。	http://dict.youdao.com/example/written/%E6%88%91%E4%B8%8D%E5%BE%97%E4%B8%8D%E8%AF%B4/	词典例句，转述与口译中正常；论述文中作情绪铺垫是元话语
+本文认为	word	篇章	乙	B1	mid	R1正常 R9可容忍 R4病	本文认为“欧化”，“西化”，“英化”这几个术语是可以等同的	https://s.wanfangdata.com.cn/thesis?q=%E6%AC%A7%E5%8C%96	学位论文中标识作者立场，正常；摘要里每段「本文认为」是元话语冗余
+近年来…广泛研究	pattern	篇章	乙	Y6	high	R1病 R4可容忍	近年来，XX 得到了广泛研究	https://m.sohu.com/a/994083036_122464893/	须点名学者与结论；这句换任何题目都成立
+随着…的发展	pattern	篇章	乙	Y6	high	R4可容忍 R1病 R6正常	什么随着社会经济的快速发展	https://www.paperday.cn/news/4849.html	时代背景开头；须有具体年份与数据，否则是万能起句
+在这个快节奏的时代	word	篇章	乙	Y6	mid	R6正常 R1病 R3病	在这个快节奏的时代，越来越多的人开始关注健康生活方式。	https://implexa.ai/s/clawhub/content-polisher-zh	公众号人类作者也写，故只给 mid；与「越来越」同现时可疑度上升；民间观察
+近年来，[^。]{1,15}取得了显著进展	pattern	篇章	乙	Y6	mid	R1正常 R4正常 R6病	近年来，XX领域取得了显著进展…	https://blog.csdn.net/why_not_do_som/article/details/158740747	综述交代研究脉络属正常；原文为模板式举例，XX 为占位符；民间观察
+(上一条|刚才|上一版|上一稿|前面的回复|我改的说明)	pattern	篇章	丙	B1	high	全档病	上一条我刚改的说明漏了缓存这一层。	humanize ZH 25	草稿残留，交付稿必删
+(截至|截止到)[^，。]{0,12}(训练|知识库|数据截止|最后更新)	pattern	篇章	丙	B1	high	全档病	截至我所掌握的数据，该接口不支持批量删除。	humanize ZH 23	模型自述知识边界，人不会这样写
+值得一提的是	word	篇章	丙	B1	high	R1正常 R6病	“值得一提的是”“综上所述”“总而言之”——这些词一出现，活人感立刻归零。	http://mp.weixin.qq.com/s?__biz=MzcwNDQxMjYwMg==&mid=2247484050&idx=1&sn=f956b33c5fa088fdafa758d1d16cf839	与「值得注意的是」同族，可合并统计；真实补充信息时可留一次｜人工裁决
+值得注意的是	word	篇章	丙	B1	high	R1可 R2可 其它档可疑	高频出现的 “综上所述”“值得注意的是” 等万能过渡词	维普AIGC检测 产品页 fanyu.com/ProductService/wei_pu_a_i_g_c_jian_ce 及渠道稿 sohu.com/a/901384871_120466353	中文侧；多处口径一致指认，无统计倍数；单次出现常见于人类文本
+好的，以下是	word	篇章	丙	B1	high	R8正常 R6病 R1病	好的，以下是针对少数派平台的特点写的某某主题文章	https://sspai.com/post/99838	chatbot 元话语原样残留，正常人类投稿不会出现；对话中回答提问属正常
+本质上	word	篇章	丙	B1	high	R1正常 R6可容忍 R7病	这类干部干的活，本质上是一种	https://m.163.com/dy/article_v5/L6F73TCD0556PH6C.html	哲学术语有严格用法；日常替代「其实是」是拔高，AI 高频使用
+综上所述	word	篇章	丙	B1	high	R1可 R2可 其它档可疑	高频出现的 “综上所述”“值得注意的是” 等万能过渡词	维普AIGC检测 产品页 fanyu.com/ProductService/wei_pu_a_i_g_c_jian_ce 及渠道稿 sohu.com/a/901384871_120466353	中文侧；厂商与媒体口径一致指认，无统计倍数；公文与学术结论段本属常规，须看密度｜人工裁决
+不难看出	word	篇章	丙	B1	mid	R1可 R2可 其它档可疑	选择诸如“由此可见”“不难看出”“具有重要意义”等空洞的总结套话	简圣宇 2026, 中国社会科学报 2026-07-03, 智能写作的「AI味」问题	中文侧；学理评论，非统计词表
+以上内容强调了	word	篇章	丙	B1	mid	待定	“以上内容强调了”“本文得出了”“以下是”等词句	《出版与印刷》AIGC检测系统对比实测, cbyys.sppc.edu.cn PDF eb34e144（二手，仅见检索摘要）	中文侧；二手，检测系统漏判样本中人工可辨的标识词，非词表
+其实	word	篇章	丙	B1	mid	R8正常 R6正常 R1病 R7可容忍	其实许多东西只能算是“阅读产品”	https://www.chinawriter.com.cn/n1/2017/0410/c405167-29198070.html	口语转折正常；每段开头都用「其实」是在替读者预设误解，属元话语滥用
+归根结底	word	篇章	丙	B1	mid	R4正常 R1可容忍 R7病	归根结底还是要保持阅读习惯	http://pub-zhtb.hizh.cn/a/202408/18/AP66c14617e4b083785a636028.html	作总结用语正常；与「说到底」「本质上」连用堆叠是病
+总的来说	word	篇章	丙	B1	mid	R1可 R2可 其它档可疑	高频使用“首先、其次、总之”“总的来说”“值得注意的是”等衔接词	简圣宇 2026, 中国社会科学报 2026-07-03, 智能写作的「AI味」问题	中文侧；学理评论，非统计词表
+本文得出了	word	篇章	丙	B1	mid	待定	“以上内容强调了”“本文得出了”“以下是”等词句	《出版与印刷》AIGC检测系统对比实测, cbyys.sppc.edu.cn PDF eb34e144（二手，仅见检索摘要）	中文侧；二手，同上
+由此可见	word	篇章	丙	B1	mid	R1可 R2可 其它档可疑	选择诸如“由此可见”“不难看出”“具有重要意义”等空洞的总结套话	简圣宇 2026, 中国社会科学报 2026-07-03, 智能写作的「AI味」问题	中文侧；学理评论，非统计词表；总结段单用一次正常
+让我们[^，。]{1,18}	pattern	篇章	丙	B1	mid	R6正常 R2正常 R1病	结尾写了一句"让我们拭目以待"	https://blog.csdn.net/qq_24252865/article/details/158537986	演讲、倡议书、社论里属正常修辞；技术文、周报里出现即可疑；民间观察
+说到底	word	篇章	丙	B1	mid	R4正常 R2正常 R1病 R7可容忍	改文风会风话风，说到底就是要改作风、戒虚功。	https://www.gdtzb.gov.cn/txzt/srgczybxgdjsxxjj/pljd/content/post_93226.html	时评与讲话里作归结语正常；一篇出现三次以上且后接常识即为病
+以下是	word	篇章	丙	B1	low	待定	“以上内容强调了”“本文得出了”“以下是”等词句	《出版与印刷》AIGC检测系统对比实测, cbyys.sppc.edu.cn PDF eb34e144（二手，仅见检索摘要）	中文侧；二手；列举前的正常提示语，单独无判别力
+先说结论	word	篇章	丙	B2	high	R6正常 R8可容忍 R1病	先说结论，于买家们，毫无意义。	https://www.sohu.com/a/129233261_533940	知乎体开头，功能性尚可；每节都用则成模板，且常以断言代替论证
+首先[^。]{0,40}其次[^。]{0,40}最后	pattern	篇章	丙	B2	high	R2正常 R3正常 R6病 R7病	首先，小红书的流量分发逻辑是……其次，你需要关注三个核心指标……	http://mp.weixin.qq.com/s?__biz=MjM5ODU2MzM0MQ==&mid=2247484158&idx=1&sn=b628d4f4aa85bab15a89833602ef527e	公文序数体、教程步骤属正常；再叠「此外」「同时」可疑度显著上升
+首先[^。]{0,80}其次[^。]{0,80}最后	pattern	篇章	丙	B2	mid	R1可 R2可 其它档可疑	高频使用“首先、其次、总之”“总的来说”“值得注意的是”等衔接词	简圣宇 2026, 中国社会科学报 2026-07-03, 智能写作的「AI味」问题	中文侧；学理评论，非统计词表；实验步骤等确有先后顺序时正常；正则停在「最后」；以「总之」收尾的同构变体未入正则
+具有重要意义	word	篇章	丙	B4	high	R1可 R2可 其它档可疑	选择诸如“由此可见”“不难看出”“具有重要意义”等空洞的总结套话	简圣宇 2026, 中国社会科学报 2026-07-03, 智能写作的「AI味」问题	中文侧；学理评论，非统计词表；无信息增量的拔高句
+加粗小标题	word	篇章	丙	B6	low	R3正常 R6正常 R7病 R1病	每个条目前面都有一个加粗的标题，有一个冒号	https://pwa.sspai.com/post/98509	技术文档、清单体、README 里属规范；散文与评论里成排出现才可疑
+(首先|其次|最后|此外|同时)[^。]{0,6}(。|，)	pattern	篇章	丙	NEW	low	R1可容忍 R2正常 R7病	首先，我们需要明确问题边界。	humanize ZH 7	句式开头复读，逐段同式才判；单次不算
+In the [a-z]+ [a-z]+ of our [a-z]+ era	pattern	篇章	乙	Y6	mid	R6病 R7病	In the quiet hum of our digital era	https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing	中文对应「在当今数字时代的喧嚣中」；该句为 NYT 仿写的 AI 腔样本
+in today'?s fast-paced world	pattern	篇章	乙	Y6	mid	R6病	in today's fast-paced world	https://github.com/ItsssssJack/SlopMonster/blob/main/references/signs-of-ai-writing.md	中文对应「在当今快节奏的社会中」；民间观察，自媒体最高频
+In conclusion	pattern	篇章	丙	B1	high	R1病 R6病	Compulsive summaries: “Overall,” “In conclusion”	https://www.beutlerink.com/blog/how-to-spot-ai-writing	中文对应「综上所述」；同族 Overall,/In summary,；长报告末段合法
+[Ii]t's important to note that	pattern	篇章	丙	B1	mid	R6病 R9病	it's important to note that these caucuses operate outside	https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing	中文对应「值得注意的是」；删掉后信息不减即为病
+additionally	word	篇章	丙	B1	mid	R1正常 其它档须谨慎	（词表项，无例句）	Kobak et al. 2025, Sci Adv 11(27): eadt3813, Fig. S6 (arXiv:2406.07016)	英文侧实证；10 词集之一；句首衔接词密集出现才算病；词典项，无论文例句
+notably	word	篇章	丙	B1	mid	R1正常 其它档须谨慎	（词表项，无例句）	Kobak et al. 2025, Sci Adv 11(27): eadt3813, Fig. S6 (arXiv:2406.07016)	英文侧实证；10 词集之一；句首立场状语，学术文中本身合法；词典项，无论文例句
+particularly	word	篇章	丙	B1	mid	R1正常 其它档须谨慎	（词表项，无例句）	Kobak et al. 2025, Sci Adv 11(27): eadt3813, Fig. S6 (arXiv:2406.07016)	英文侧实证；10 词集之一；词典项，无论文例句
+——	word	篇章	丙	B5	low	R7正常 R6正常	这不是一次普通的下跌——而是结构性的变化。	https://zhuanlan.zhihu.com/p/2029884087368971483	单处破折号是正常中文标点；同一段超过一处、或专用于「不是…而是」才可疑
+\*\*[^*]{2,30}\*\*[:：]	pattern	篇章	丙	B6	mid	R3正常 R6病	**Standard Rotary Saws**: Typically used for drywall	https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing#Inline-header_vertical_lists	中文对应「**关键词**：说明」竖排清单；产品文档中正常
+faces several challenges	pattern	篇章	丙	NEW	high	R2病 R4病 R6病	hydrocarbon economies faces several challenges	https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing#Outline-like_conclusions_about_challenges_and_future_prospects	中文对应「面临诸多挑战」；同族 faces numerous/many challenges
+[0-9]️⃣	pattern	篇章	丙	NEW	mid	R6正常 R1病 R3病	1️⃣ 钩子：一句话说中痛点	https://m.weibo.cn/status/5355774026975608	emoji 当项目符号，建议立 B7「符号化列表」；小红书原生语境有真实用法，故只给 mid
+[A-Z][a-z]+ and [A-Z][a-z]+	pattern	篇章	丙	NEW	mid	R4正常 R6病	Challenges and Future Directions	https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing#Outline-like_conclusions_about_challenges_and_future_prospects	中文无对应（中文标题无大小写）；英文新闻标题本就用 title case，须看是否全篇一致
+[✨😭🙏🔥💡✅❌🚀]	pattern	篇章	丙	NEW	mid	R6正常 R8正常 R1病 R3病	emoji表情当标点符号用，恨不得每句话后面都跟个✨😭🙏	http://mp.weixin.qq.com/s?__biz=MzkxMjc1NzA1NA==&mid=2247483843&idx=1&sn=616e6ad88e54782632930bb71522a37e	建议并入 B7；单句一个 emoji 属平台习惯，句句都挂才是信号；民间观察
+[👋🚀💡🎯🌍📚]	pattern	篇章	丙	NEW	mid	R6病	👋 Welcome to the User Page of Bhaskar Sunsari	https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing#Emoji_as_formatting	中文对应「标题带 emoji」；社交媒体正常，正式文本可疑
+有待进一步研究	word	语用	乙	NEW	high	R1可容忍 R9可容忍 R4病	不能笼统地说"仍有待进一步研究"	https://wap.yanfajia.com/news/7569.html	指出具体缺口时正常；作结论收尾是免责套话
+您	word	语用	乙	NEW	mid	R8正常 R2正常 R6病	有的模型坚持用「我们」「您」这些客服式的代词	https://sspai.com/post/99838	客服语域塌缩，建议立「客服人称」规则；正式函件、敬语场景的「您」是规范
+你必须承认	word	语用	丙	B1	high	R8可容忍 R6正常 R1病	你必须承认，有些人有20年的工作经验	https://musicupload.netease.com/m/program?id=909628761	说教式预设共识，鸡汤体常见；议论文中应改为给出证据
+所谓	word	语用	丙	B1	mid	R1正常 R4正常 R7正常 R6病	既有“才华”、又见“气质”的所谓“瑰奇”女子	https://www.chinawriter.com.cn/n1/2017/0410/c405167-29198070.html	表「众所公认的」时可中性；加引号表轻蔑是评论姿态，学术文本应改为具体所指
+according to [A-Z][a-z]+ sources	pattern	语用	乙	NEW	mid	R4正常 R6病	according to Indian sources,	https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing#Vague_attributions_and_overgeneralization_of_opinions	中文对应「据…方面消息」；同族 Experts argue/Observers have cited；须落到具体是谁
+‘[^’]{2,8}’	pattern	语用	丙	NEW	mid	R1正常 R6病	这其实就是一种‘路径依赖’”。 本质上是‘供需错配"。	https://zhuanlan.zhihu.com/p/2029884087368971483	引号包围普通词，建议立 B9「术语加引号」；文献引用、术语首次定义、反讽用法不算；民间观察
+填补了…空白	pattern	修辞	乙	B4	high	R1病 R4病	填补国内空白	https://www.chuanboyi.net/article/675.html	须有文献证据证明空白存在；否则是自我夸大，广告法同样禁用「填补国内空白」
+本文通过研究…具有重要意义	pattern	修辞	乙	B4	high	R1病	本文通过研究，提出了对策建议，具有重要意义	https://m.qinxue365.com/embaxw/512726.html	评审明确反感的摘要句式；意义须具体到对谁有用
+丰富了…的研究	pattern	修辞	乙	Y1	high	R1病 R9可容忍	本文丰富了相关领域的研究	https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Economic-Research-Journal-Skills/skills/er-abstract/SKILL.md	「丰富了文献」是永真式，任何论文都成立；须说明丰富了哪一支文献、改变了什么判断
+为…提供了新的视角	pattern	修辞	乙	Y1	high	R1病	为 XX 研究提供了新的视角	https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/Economic-Research-Journal-Skills/skills/er-abstract/SKILL.md	须指明「新」相对于哪个旧视角；没有参照物时语义为空
+出圈	word	修辞	乙	Y1	high	R6正常 R4可容忍 R7病	再“出圈”的梗也可能翻车	https://jianghu.taobao.com/detail/47301_73825228	饭圈原义指偶像被圈外认识，正常；泛化为「火了」是病
+原地封神	word	修辞	乙	Y1	high	R6正常 R7病	吃的喝的用的全部直接“原地封神”	https://www.163.com/dy/article/GN8I4SCJ0519H0JE.html	封神榜典故本义正常；用来评商品或人物是营销夸张
+巨巨巨巨好吃	word	修辞	乙	Y1	high	R6正常 R7病	巨巨巨巨好吃	http://pub-zhtb.hizh.cn/a/202408/18/AP66c14617e4b083785a636028.html	叠字强化情绪，只见于营销文案；正常写作应给出具体味觉描述
+神仙X	pattern	修辞	乙	Y1	high	R6正常 R8可容忍 R7病	“这是什么神仙地方”、“神仙颜值”	https://m.sohu.com/a/511836575_121087919/	「神仙」作定语表极高评价，只见于营销与饭圈；宗教神话语境不算
+组合拳	word	修辞	乙	Y1	high	R2正常 R4可容忍 R7病	方法论是组合拳达到平台化标准。	https://news.ifeng.com/c/852SbnOEOvU	体育本义正常；政策语境指多项措施配套尚可，商业文案里指「同时做几件事」是病
+绝绝子	word	修辞	乙	Y1	high	R6正常 R8可容忍 R1病 R7病	绝绝子的好景好物	https://www.163.com/dy/article/GN8I4SCJ0519H0JE.html	纯网络夸饰词，任何正式文本中出现即病；带货与口语场景内仍属圈内正常
+闭眼入	word	修辞	乙	Y1	high	R6正常 R7病	当每一个博主都在打着“闭眼入”的旗号	https://www.zhipianbang.com/index.php/news/detail-261190.html	带货话术，商品推荐场景内正常；移植到书评、观点文即病
+天花板	word	修辞	乙	Y1	mid	R6正常 R4可容忍 R7病	经常出现的“yyds”、“绝绝子”、“天花板”	https://xw.qianzhan.com/analyst/detail/329/211105-47ff865e.html	建筑本义正常；作「最高水平」解却不给比较范围是病。此例为媒体归纳的清单，属民间观察
+宝藏	word	修辞	乙	Y1	mid	R6正常 R8可容忍 R7病	“宝藏单品”、“挖到宝藏了”	https://m.sohu.com/a/511836575_121087919/	本义指藏物，正常；作「值得推荐」的万能定语是营销腔
+不是…而是	pattern	修辞	丙	B3	high	R7正常 R6可容忍 R1病	不是到了什么年龄就可以过上什么样的生活；而是你付出了什么样的努力	https://musicupload.netease.com/m/program?id=909628761	真对比（否定A肯定B且有依据）正常；只为制造警句、A 是稻草人时是假对比
+你以为[^。]{1,20}？不，	pattern	修辞	丙	B3	high	R6正常 R5正常 R1病 R3病	你以为你在跟土地打交道？不，你是在跟全球气候系统的全面崩溃赛跑。	https://zhuanlan.zhihu.com/p/2029884087368971483	DeepSeek 系高发；科普答疑中真实纠正误解时可留
+你以为…其实	pattern	修辞	丙	B3	high	R6正常 R8正常 R1病 R7病	你以为一切就这样了么？其实事情并没有想象的那么美好	https://www.pingwest.com/a/77299	知乎故事体的固定反转；真实对话中正常，书面论述中属编排读者
+当[^，。]{1,18}还在[^，。]{1,18}时，[^，。]{1,18}已经	pattern	修辞	丙	B3	high	R6正常 R1病 R3病	当德国的工程师还在验证传统底盘调校时，中国的工程师已经在做整车OTA和远程迭代。	https://zhuanlan.zhihu.com/p/2029884087368971483	假对比；两边都有同期可核实数据时成立，否则只是修辞
+(有人说|很多人认为|你可能会说|或许你会问|有人质疑)	pattern	修辞	丙	B3	mid	R1可容忍 R6可容忍 R7病	有人说这是浪费，其实不然。	humanize ZH 5	与假想敌辩论：先立一个没人说的靶子
+不是[^，。]{1,15}，而是[^，。]{1,15}	pattern	修辞	丙	B3	mid	R6正常 R7正常 R3病	这从来不是谁更先进的问题，而是谁换赛道更早。	https://zhuanlan.zhihu.com/p/2029884087368971483	中文固有修辞，全篇用一次属好文笔；连用或与破折号搭配才可疑
+如果说[^，。]{1,15}，那么	pattern	修辞	丙	B3	mid	R6正常 R1正常 R3病	如果说德国工程师擅长把机器做到极致，那么中国工程师更擅长换掉这台机器。	https://zhuanlan.zhihu.com/p/2029884087368971483	类比推理本身合法；一段内出现两次以上即模板化；民间观察
+余生	pattern	修辞	丙	B4	high	R7正常 R8可容忍 R6病	《余生，找一个把你宠成小孩的人》	http://wb.lhrb.com.cn/html/2018-10/23/content_35645.htm	「余生」本义正常；鸡汤标题里作「往后一辈子」的承诺是煽情套式
+愿你	pattern	修辞	丙	B4	high	R8正常 R7可容忍 R1病 R2病	愿你走出半生，归来仍是少年。	https://www.thepaper.cn/newsDetail_forward_1662360	书信与祝词中正常；连续排比「愿你」是鸡汤体标志，光明网曾专文批评其套路化
+站在[^，。]{1,8}的门槛上	pattern	修辞	丙	B4	high	R2正常 R6正常 R1病	我们正站在智能文明的门槛上，见证一场重塑生产力与认知边界的革命。	https://zhuanlan.zhihu.com/p/2029884087368971483	时代叙事拔高；有具体时间地点锚点时可留
+，?(充分|极大|有力|深刻|生动)(地)?(体现|彰显|展现|说明|证明)了	pattern	修辞	丙	B4	high	R1病 R2可容忍 R4病	页面提供全文搜索，充分体现了团队对创新的追求。	humanize ZH 15	句尾补充式拔高，删
+(专家|学者|业内人士|业内专家|权威人士)(认为|指出|表示|透露)	pattern	修辞	丙	B4	mid	R4可容忍 R1病 R7病	业内人士普遍认为该方案更具前瞻性。	humanize ZH 17	借权威：有具体出处则正常，无出处即空转
+(如同一(把|座)|像是?(一(把|座))?)[^。]{0,10}(双刃剑|桥梁|灯塔|钥匙|大门|密码|基石|引擎)	pattern	修辞	丙	B4	mid	R1病 R5可容忍 R7病	远程办公是一把双刃剑。	humanize XH 26	套喻：喻体没提供新信息就是空转
+(造成|带来|产生)了?(积极|深远|重大|一定)的?(影响|作用|后果)	pattern	修辞	丙	B4	mid	R1可容忍 R7病	新规带来了积极的影响。	humanize XH 7	有具体效果就写效果，没效果就是拔高
+不只是[^，。]{1,12}，更是	pattern	修辞	丙	B4	mid	R6正常 R1病 R4病	「不只是 X，更是 Y」的拔高句式	https://post.smzdm.com/p/a6zwenq0/	与「不是…而是」同族，都靠否定前半句抬后半句；原帖列为拔高句式；民间观察
+以更加[^，。]{0,6}的	pattern	修辞	丙	B4	mid	R2正常 R6病 R1病	以更加饱满的热情、更加昂扬的斗志、更加务实的作风	https://www.toutiao.com/article/7697548727254270500/	三个「更加」连排才可疑；单个「更加」是普通程度副词。公文本身由人撰写，须看是否三个连用
+愿你我都能	word	修辞	丙	B4	mid	R8正常 R6正常 R1病	“愿你我都能……”“遇见更好的自己”	https://post.smzdm.com/p/a6zwenq0/	祝福语、跨年文案里属正常；技术文／周报段末挂金句才是信号；民间观察
+未来可期	word	修辞	丙	B4	mid	R8正常 R6正常 R1病	未来可期"、"这代表了向正确方向迈出的重要一步	https://blog.csdn.net/qq_24252865/article/details/158537986	维基 24 条「万能结尾」的中文对应；祝福、贺词场景属正常；民间观察
+真正的	word	修辞	丙	B4	mid	R7正常 R6可容忍 R1病	与真正的文学不大沾得上边	https://www.chinawriter.com.cn/n1/2017/0410/c405167-29198070.html	对比真伪时正常；不给判据、只用于抬高后半句即意义拔高
+yyds	word	修辞	乙	Y1	high	R6正常 R8可容忍 R1病 R7病	XX品牌YYDS	https://m.sohu.com/a/511836575_121087919/	拼音缩写式最高级，正式文本一律为病；饭圈与带货语境正常
+[a-z]+, [a-z]+,? and [a-z]+	pattern	修辞	丙	B2	high	R2病 R6病	for tougher materials such as tiles, metals, and plastics	https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing#Rule_of_three	三项罗列；中文对应「甲、乙、丙」；确有三项时不算病，看是否每段都三项
+It[’']s not (just )?[^.,]{1,40}[,;—–-] ?it[’']s	pattern	修辞	丙	B3	high	R4病 R6病 R7病	It’s not just a flood — it’s a groundswell.	https://www.nytimes.com/2025/12/03/magazine/chatbot-writing-style.html	中文对应「这不仅是…更是…」；有实证：Atlantic 追踪该句式在财报中激增
+not only [^.]{1,60} but also	pattern	修辞	丙	B3	mid	R4正常 R6病	not only for ecological diversity but also for sustaining	https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing	中文对应「不仅…而且…」；合同与法条中正常
+[Tt]he future of [^.]{2,40} lies in	pattern	修辞	丙	B4	high	R2病 R6病	The future of international economic law lies in its ability	https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing#Outline-like_conclusions_about_challenges_and_future_prospects	中文对应「…的未来在于」；结尾展望套式
+part of a broader	pattern	修辞	丙	B4	high	R2病 R6病	This initiative was part of a broader movement across Spain	https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing#Undue_emphasis_on_significance,_legacy,_and_broader_trends	中文对应「是…大潮的一部分」；同族 reflects a broader；须说清更大的那件事是什么
+—	pattern	修辞	丙	B5	high	R4正常 R7正常 R6病	where a comma would do—like this	https://www.beutlerink.com/blog/how-to-spot-ai-writing	中文无对应（中文破折号另有一套）；有实证：GPT 标点偏好跨语种保留；须看密度（每 500 词逾 3 处）
+[^、，。]{2,6}、[^、，。]{2,6}、[^、，。]{2,6}	pattern	修辞	丙	NEW	mid	R2正常 R6病 R1病	既要保质量、又要赶进度、还要顾体验	https://post.smzdm.com/p/a6zwenq0/	三项并列凑数，建议立 B8「三连强迫」；真实三项枚举（早中晚、省市县）不算；技术清单三项也正常
+[。！][^。！？]{2,6}[。！]	pattern	修辞	丙	NEW	low	R6可容忍 R7可容忍 全档其它谨慎	文件没了。消失了。	humanize ZH 2	戏剧碎片：短句独立成句且无新信息才算病
