@@ -19,17 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
----
-
-Third-party notices
-
-Portions of this project derive from the following MIT-licensed works. Their
-permission notices are reproduced above and their attribution is kept in
-README.md and MIGRATION.md.
-
-  blader/humanizer — Copyright (c) 2025 Siqi Chen
-  https://github.com/blader/humanizer
-
-  op7418/Humanizer-zh — Copyright (c) 2026 歸藏
-  https://github.com/op7418/Humanizer-zh

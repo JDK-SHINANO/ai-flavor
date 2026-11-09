@@ -130,4 +130,4 @@ sudo apt install python3-jieba
 
 ## 许可
 
-MIT，见 [LICENSE](LICENSE)。
+MIT，见 [LICENSE](LICENSE)。词条与目录中沿用上游的部分，另见 [NOTICE](NOTICE)。
