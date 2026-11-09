@@ -40,13 +40,13 @@ Defect C has the strongest evidence and the weakest fix. The distribution gap be
 
 Nine register tiers: R1 academic, R2 official document, R3 technical documentation, R4 news, R5 popular science, R6 social media, R7 literary essay, R8 personal letter, R9 translation polish. Each has its own defaults and hard constraints. The same entry carries a different severity depending on the tier it lands in.
 
-Five rewrite levels: L0 diagnoses without touching a character, L1 removes lexical symptoms, L2 also repairs syntax, L3 changes paragraph structure, L4 rewrites. The further you go, the more a human needs to watch.
+Five rewrite levels: L0 reports without touching a character, L1 removes surface problems, L2 also repairs syntax, L3 changes paragraph structure, L4 rewrites. The further you go, the more a human needs to watch.
 
 Audience and consequence count as well. If the text goes on file (a thesis, an official document, a contract), drop one level of force and touch only what is certain. A one-off message can be handled less carefully.
 
 ### Measurements
 
-One ruler, three kinds of text:
+One rubric, three kinds of text:
 
 | Text | Words | High-confidence hits | Note |
 |---|---|---|---|
@@ -54,7 +54,7 @@ One ruler, three kinds of text:
 | Human academic writing (one chapter) | 6744 | 0 | Over two hundred entries, no false positives |
 | Official-document sample | — | 3 → 1 | After the tier downgrade, 抓手 and 闭环 count as leads |
 
-Two further trials compare the old and new criteria, at 1270 and 1076 characters. The records are in `docs/research/contrast-trials-2026-10/`. First-round finding: XH alone beats ZH alone, and both beat running the two in sequence. Run in sequence, they strip qualifiers and claims along with the symptoms. The sample has not reached the planned 10–20 passages, so treat this as a preliminary read.
+Two further trials compare the old and new criteria, at 1270 and 1076 characters. The records are in `docs/research/contrast-trials-2026-10/`. First-round finding: XH alone beats ZH alone, and both beat running the two in sequence. Run in sequence, they strip qualifiers and claims along with the flagged items. The sample has not reached the planned 10–20 passages, so treat this as a preliminary read.
 
 ## How to use
 
